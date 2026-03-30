@@ -12,6 +12,7 @@ CREATE TABLE songs (
     country TEXT,
     alias TEXT,
     genre TEXT,
+	duration INTEGER,
     language TEXT,
     notes TEXT
 );
