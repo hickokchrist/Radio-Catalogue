@@ -6,7 +6,7 @@ PRAGMA foreign_keys = ON;
 
 
 -- [2026-03-30] Nuclear Seasons — Charli XCX
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Nuclear Seasons', 'UK', NULL, 'Dark wave', 287, 'English', 'Fx');
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Nuclear Seasons', 'UK', NULL, 'Dark wave', 282, 'English', 'Fx');
 INSERT INTO artists (name, alias) VALUES ('Charli XCX', NULL);
 INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
 SELECT s.id, a.id, 'primary'
