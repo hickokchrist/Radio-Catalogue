@@ -33,38 +33,44 @@ def needs_romanization(s):
 
 def romanize(text):
     # Cyrillic → Latin
-    try:
-        from transliterate import translit
-        return translit(text, 'ru', reversed=True)
-    except Exception:
-        pass
+    if re.search(r'[\u0400-\u04FF]', text):
+        try:
+            from transliterate import translit
+            try:
+                return translit(text, 'uk', reversed=True)
+            except Exception:
+                return translit(text, 'ru', reversed=True)
+        except Exception:
+            pass
 
-        # Japanese → Romaji
-    try:
-        import pykakasi
-        kks = pykakasi.kakasi()
-        result = kks.convert(text)
-        return " ".join(item['hepburn'] for item in result)
-    except Exception:
-        pass
+    # Japanese → Romaji
+    if re.search(r'[\u3040-\u30FF\u4E00-\u9FFF]', text):
+        try:
+            import pykakasi
+            kks = pykakasi.kakasi()
+            result = kks.convert(text)
+            return " ".join(item['hepburn'] for item in result)
+        except Exception:
+            pass
 
     # Korean → RR
-    try:
-        from hangul_romanize import Transliter
-        from hangul_romanize.rule import academic
-        t = Transliter(academic)
-        return t.translit(text)
-    except Exception:
-        pass
+    if re.search(r'[\uAC00-\uD7A3]', text):
+        try:
+            from hangul_romanize import Transliter
+            from hangul_romanize.rule import academic
+            t = Transliter(academic)
+            return t.translit(text)
+        except Exception:
+            pass
 
     # Chinese → Pinyin
-    try:
-        from pypinyin import lazy_pinyin
-        return " ".join(lazy_pinyin(text))
-    except Exception:
-        pass
+    if re.search(r'[\u4E00-\u9FFF]', text):
+        try:
+            from pypinyin import lazy_pinyin
+            return " ".join(lazy_pinyin(text))
+        except Exception:
+            pass
 
-    # Default: return unchanged
     return text
 
 
