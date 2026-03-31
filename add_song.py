@@ -39,10 +39,12 @@ def romanize(text):
     except Exception:
         pass
 
-    # Japanese → Romaji
+        # Japanese → Romaji
     try:
-        from romkan import to_roma
-        return to_roma(text)
+        import pykakasi
+        kks = pykakasi.kakasi()
+        result = kks.convert(text)
+        return " ".join(item['hepburn'] for item in result)
     except Exception:
         pass
 
