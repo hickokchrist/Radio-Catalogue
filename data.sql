@@ -8,7 +8,7 @@ INSERT INTO artists (name, alias) VALUES ('Buju Banton', NULL);
 INSERT INTO artists (name, alias) VALUES ('Neon Indian', NULL);
 INSERT INTO artists (name, alias) VALUES ('Classixxx', NULL);
 INSERT INTO artists (name, alias) VALUES ('Nancy Whang', NULL);
-INSERT INTO artists (name, alias) VALUES ('Björk', 'Bj??rk');
+INSERT INTO artists (name, alias) VALUES ('Björk', 'Bjork');
 INSERT INTO artists (name, alias) VALUES ('Eric B. & Rakim', NULL);
 INSERT INTO artists (name, alias) VALUES ('4minute', NULL);
 INSERT INTO artists (name, alias) VALUES ('Perturbator', NULL);
@@ -16,7 +16,7 @@ INSERT INTO artists (name, alias) VALUES ('Cheryl Lynn', NULL);
 INSERT INTO artists (name, alias) VALUES ('Britney Spears', NULL);
 INSERT INTO artists (name, alias) VALUES ('The Brothers Johnson', NULL);
 INSERT INTO artists (name, alias) VALUES ('ADULT.', NULL);
-INSERT INTO artists (name, alias) VALUES ('Trang Pháp', 'Trang Ph??p');
+INSERT INTO artists (name, alias) VALUES ('Trang Pháp', 'Trang Phap');
 INSERT INTO artists (name, alias) VALUES ('Nadine Coyle', NULL);
 INSERT INTO artists (name, alias) VALUES ('5sta Family', NULL);
 INSERT INTO artists (name, alias) VALUES ('Adrian Lux', NULL);
@@ -50,6 +50,127 @@ INSERT INTO artists (name, alias) VALUES ('Chaka Khan', NULL);
 INSERT INTO artists (name, alias) VALUES ('Stardust', NULL);
 INSERT INTO artists (name, alias) VALUES ('Hikaru Utada', 'Utada Hikaru');
 INSERT INTO artists (name, alias) VALUES ('宇多田ヒカル', 'Hikaru Utada');
+INSERT INTO artists (name, alias) VALUES ('Goose', NULL);
+INSERT INTO artists (name, alias) VALUES ('Mary Jane Girls', NULL);
+INSERT INTO artists (name, alias) VALUES ('Neneh Cherry', NULL);
+INSERT INTO artists (name, alias) VALUES ('Curtis Mayfield', NULL);
+INSERT INTO artists (name, alias) VALUES ('Hashim', NULL);
+INSERT INTO artists (name, alias) VALUES ('Run-D.M.C.', NULL);
+INSERT INTO artists (name, alias) VALUES ('Black Uhuru', NULL);
+INSERT INTO artists (name, alias) VALUES ('Burning Spear', NULL);
+INSERT INTO artists (name, alias) VALUES ('Yellowman', NULL);
+INSERT INTO artists (name, alias) VALUES ('Ohio Players', NULL);
+INSERT INTO artists (name, alias) VALUES ('the GazettE', NULL);
+INSERT INTO artists (name, alias) VALUES ('Parliament', NULL);
+INSERT INTO artists (name, alias) VALUES ('Aphex Twin', NULL);
+INSERT INTO artists (name, alias) VALUES ('Sister Sledge', NULL);
+INSERT INTO artists (name, alias) VALUES ('Foxy', NULL);
+INSERT INTO artists (name, alias) VALUES ('TWICE', NULL);
+INSERT INTO artists (name, alias) VALUES ('ITZY', NULL);
+INSERT INTO artists (name, alias) VALUES ('MAMAMOO', NULL);
+INSERT INTO artists (name, alias) VALUES ('CHIC', NULL);
+INSERT INTO artists (name, alias) VALUES ('U-Roy', NULL);
+INSERT INTO artists (name, alias) VALUES ('Amazulu', NULL);
+INSERT INTO artists (name, alias) VALUES ('Die & Interface', NULL);
+INSERT INTO artists (name, alias) VALUES ('William Cartwright', NULL);
+INSERT INTO artists (name, alias) VALUES ('ElementFour', NULL);
+INSERT INTO artists (name, alias) VALUES ('MIYAVI', NULL);
+INSERT INTO artists (name, alias) VALUES ('D''espairsRay', NULL);
+INSERT INTO artists (name, alias) VALUES ('Ms Nina', NULL);
+INSERT INTO artists (name, alias) VALUES ('Beauty Brain', NULL);
+INSERT INTO artists (name, alias) VALUES ('비디오로즈', 'bidi-olojeu');
+INSERT INTO artists (name, alias) VALUES ('FAKY', NULL);
+INSERT INTO artists (name, alias) VALUES ('ЯАVЬ', 'JaAV''');
+INSERT INTO artists (name, alias) VALUES ('IOSYS', NULL);
+INSERT INTO artists (name, alias) VALUES ('박미경', 'bagmigyeong');
+INSERT INTO artists (name, alias) VALUES ('Brown Eyed Girls', NULL);
+INSERT INTO artists (name, alias) VALUES ('Lindsay Lohan', NULL);
+INSERT INTO artists (name, alias) VALUES ('Hillary Duff', NULL);
+INSERT INTO artists (name, alias) VALUES ('KC & The Sunshine Band', NULL);
+INSERT INTO artists (name, alias) VALUES ('김건모', 'gimgeonmo');
+INSERT INTO artists (name, alias) VALUES ('에쵸티', 'echyoti');
+INSERT INTO artists (name, alias) VALUES ('Al Green', NULL);
+INSERT INTO artists (name, alias) VALUES ('A Taste Of Honey', NULL);
+INSERT INTO artists (name, alias) VALUES ('Dazz Band', NULL);
+INSERT INTO artists (name, alias) VALUES ('George Clinton', NULL);
+INSERT INTO artists (name, alias) VALUES ('MC Hammer', NULL);
+INSERT INTO artists (name, alias) VALUES ('Saja', NULL);
+INSERT INTO artists (name, alias) VALUES ('Lunatic Calm', NULL);
+INSERT INTO artists (name, alias) VALUES ('Thundercat', NULL);
+INSERT INTO artists (name, alias) VALUES ('Malexa', NULL);
+INSERT INTO artists (name, alias) VALUES ('Redlight', NULL);
+INSERT INTO artists (name, alias) VALUES ('FM Skyline', NULL);
+INSERT INTO artists (name, alias) VALUES ('Pháo', 'Pháo');
+INSERT INTO artists (name, alias) VALUES ('Ozuna', NULL);
+INSERT INTO artists (name, alias) VALUES ('Anitta', NULL);
+INSERT INTO artists (name, alias) VALUES ('Jason Derulo', NULL);
+INSERT INTO artists (name, alias) VALUES ('Farruko', NULL);
+INSERT INTO artists (name, alias) VALUES ('Bomba Estéreo', 'Bomba Estéreo');
+INSERT INTO artists (name, alias) VALUES ('Zuco 103', NULL);
+INSERT INTO artists (name, alias) VALUES ('莫斯滿', 'baku shi man');
+INSERT INTO artists (name, alias) VALUES ('老貓', 'rou ');
+INSERT INTO artists (name, alias) VALUES ('ちゃんみな', 'chanmina');
+INSERT INTO artists (name, alias) VALUES ('Ezekiel', NULL);
+INSERT INTO artists (name, alias) VALUES ('Cybotron', NULL);
+INSERT INTO artists (name, alias) VALUES ('PIXY', NULL);
+INSERT INTO artists (name, alias) VALUES ('STAYC', NULL);
+INSERT INTO artists (name, alias) VALUES ('After School', NULL);
+INSERT INTO artists (name, alias) VALUES ('At the Drive-In', NULL);
+INSERT INTO artists (name, alias) VALUES ('ROSALÍA', 'ROSALÍA');
+INSERT INTO artists (name, alias) VALUES ('Vierre Cloud', NULL);
+INSERT INTO artists (name, alias) VALUES ('Digital Underground', NULL);
+INSERT INTO artists (name, alias) VALUES ('Eliza Rose', NULL);
+INSERT INTO artists (name, alias) VALUES ('Interplanetary Criminal', NULL);
+INSERT INTO artists (name, alias) VALUES ('the S.O.S. Band', NULL);
+INSERT INTO artists (name, alias) VALUES ('The Gap Band', NULL);
+INSERT INTO artists (name, alias) VALUES ('Midnight Star', NULL);
+INSERT INTO artists (name, alias) VALUES ('АДЛИН', 'ADLYN');
+INSERT INTO artists (name, alias) VALUES ('Килджо', 'Kyldzho');
+INSERT INTO artists (name, alias) VALUES ('6YNTHMANE', NULL);
+INSERT INTO artists (name, alias) VALUES ('BAbyBoi', NULL);
+INSERT INTO artists (name, alias) VALUES ('Nichya', NULL);
+INSERT INTO artists (name, alias) VALUES ('Lone', NULL);
+INSERT INTO artists (name, alias) VALUES ('Банд’Эрос', 'Band’Eros');
+INSERT INTO artists (name, alias) VALUES ('MF DOOM', NULL);
+INSERT INTO artists (name, alias) VALUES ('Monrose', NULL);
+INSERT INTO artists (name, alias) VALUES ('Lumidee', NULL);
+INSERT INTO artists (name, alias) VALUES ('Mo Beats', NULL);
+INSERT INTO artists (name, alias) VALUES ('Sergio Mendes & Brasil ''66', NULL);
+INSERT INTO artists (name, alias) VALUES ('Crystal Castles', NULL);
+INSERT INTO artists (name, alias) VALUES ('Soft Hair', NULL);
+INSERT INTO artists (name, alias) VALUES ('LA Priest', NULL);
+INSERT INTO artists (name, alias) VALUES ('Connan Mockasin', NULL);
+INSERT INTO artists (name, alias) VALUES ('The Cleaners From Venus', NULL);
+INSERT INTO artists (name, alias) VALUES ('Hoàng Thùy Linh', 'Hoàng Thùy Linh');
+INSERT INTO artists (name, alias) VALUES ('Cukak', NULL);
+INSERT INTO artists (name, alias) VALUES ('Kylie Minogue', NULL);
+INSERT INTO artists (name, alias) VALUES ('Sak Noel', NULL);
+INSERT INTO artists (name, alias) VALUES ('DENNIS', NULL);
+INSERT INTO artists (name, alias) VALUES ('Gregory Isaacs', NULL);
+INSERT INTO artists (name, alias) VALUES ('The Damned', NULL);
+INSERT INTO artists (name, alias) VALUES ('Iglooghost', NULL);
+INSERT INTO artists (name, alias) VALUES ('Raffaella Carrà', 'Raffaella Carrà');
+INSERT INTO artists (name, alias) VALUES ('Jaxomy', NULL);
+INSERT INTO artists (name, alias) VALUES ('Agatino Romero', NULL);
+INSERT INTO artists (name, alias) VALUES ('Coco Jones', NULL);
+INSERT INTO artists (name, alias) VALUES ('YOUNG POSSE', NULL);
+INSERT INTO artists (name, alias) VALUES ('Alphaville', NULL);
+INSERT INTO artists (name, alias) VALUES ('Shygirl', NULL);
+INSERT INTO artists (name, alias) VALUES ('SG Lewis', NULL);
+INSERT INTO artists (name, alias) VALUES ('Cosha', NULL);
+INSERT INTO artists (name, alias) VALUES ('Raffertie', NULL);
+INSERT INTO artists (name, alias) VALUES ('budAGE', NULL);
+INSERT INTO artists (name, alias) VALUES ('Imogen Heap', NULL);
+INSERT INTO artists (name, alias) VALUES ('The Hardkiss', NULL);
+INSERT INTO artists (name, alias) VALUES ('KAZAKY', NULL);
+INSERT INTO artists (name, alias) VALUES ('DOROFEEVA', NULL);
+INSERT INTO artists (name, alias) VALUES ('Wellboy', NULL);
+INSERT INTO artists (name, alias) VALUES ('Parfeniuk', NULL);
+INSERT INTO artists (name, alias) VALUES ('KOLA', NULL);
+INSERT INTO artists (name, alias) VALUES ('Sasha Lopez', NULL);
+INSERT INTO artists (name, alias) VALUES ('Misha Miller', NULL);
+INSERT INTO artists (name, alias) VALUES ('SICKOTOY', NULL);
+INSERT INTO artists (name, alias) VALUES ('SadSvit', NULL);
 
 INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Nuclear Seasons', 'UK', 'Dark wave', 'English', 'Fx', NULL);
 INSERT INTO songs (title, genre, language, notes, alias) VALUES ('New', 'USA', 'Alternative Rock', 'English', 'Pop', NULL);
@@ -108,6 +229,123 @@ INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Fate', 'USA', 
 INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Music Sounds Better with You', 'France', 'House', 'English', 'Fx', NULL);
 INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Colors', 'Japan', 'Synthpop', 'Japanese', 'J', NULL);
 INSERT INTO songs (title, genre, language, notes, alias) VALUES ('テイク５', 'Japan', 'Dance pop', 'Japanese', 'J', 'Take 5');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('嘘みたいな (I Love You)', 'Japan', 'Pop', 'Japanese', 'J', 'uso mitaina  (I Love You )');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Synrise', 'UK', 'Electronic', 'n/a', 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('All Night Long', 'USA', 'Funk', 'English', 'Cx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Buffalo Stance', 'UK', 'Hip hop', 'English', 'Ox', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Move On Up (Single Edit)', 'USA', 'Progressive soul', 'English', 'Cx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('We''re Rocking The Planet', 'USA', 'Electro', 'English', 'Ox', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Al-Naafiysh (The Soul)', 'USA', 'Electro', NULL, 'Ox', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Sucker M.C.''s (Krush-Groove 1)', 'USA', 'Hip hop', 'English', 'Ox', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Sponji Reggae', 'Jamaica', 'Roots reggae', 'English', 'Reggae', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Columbus - 2002 Remastered Version', 'Jamaica', 'Roots reggae', 'English', 'Reggae', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Zungguzungguguzungguzeng', 'Jamaica', 'Dancehall', 'English', 'Reggae', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Nobody Move Nobody Get Hurt', 'Jamaica', 'Dancehall', 'English', 'Reggae', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Funky Worm', 'USA', 'Funk', 'English', 'Cx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Skin Tight', 'USA', 'Funk', 'English', 'Cx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('FILTH IN THE BEAUTY', 'Japan', 'Visual Kei', 'Japanese', 'J', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Give Up The Funk (Tear The Roof Off The Sucker)', 'USA', 'Funk', 'English', 'Cx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Heliosphan', 'UK', 'Ambient', NULL, 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('He''s the Greatest Dancer', 'USA', 'Disco', 'English', 'Cx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Get Off', 'USA', 'Disco', 'English', 'Cx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Likey', 'Korea', 'Kpop', 'Korean', 'K', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('CHERRY', 'Korea', 'Kpop', 'Korean', 'K', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('HIP', 'Korea', 'Kpop', 'Korean', 'K', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('I Can Make You Dance', 'USA', 'Disco', 'English', 'Ox', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Good Times', 'USA', 'Disco', 'English', 'Ox', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Natty Rebel', 'USA', 'Dub', 'English', 'Reggae', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Moonlight Romance', 'UK', 'Soul', 'English', 'Reggae', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Bright Lights (Netsky Remix) (feat. William Cartwright)', 'UK', 'Electronic', 'English', 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Big Brother UK TV Theme (Vocal Mix - Radio Edit)', 'UK', 'Trance', 'English', 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('セニョール セニョーラ セニョリータ', 'Japan', 'Pop', 'Japanese', 'J', 'senyooru   senyoora   senyoriita');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('MIЯROR', 'Japan', 'Visual kei', 'Japanese', 'J', 'MIJaROR');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Lost Scene', 'Japan', 'Visual kei', 'Japanese', 'J', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Tu Sicaria', 'Spain', 'Perreo', 'Spanish', 'Latin', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('홀리가든', 'Korea', 'Synth pop', 'English', 'K', 'holligadeun');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Afterglow', 'Japan', 'Jpop', 'Japanese', 'J', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('В ТЕМНОТЕ ТАНЦУЙ', 'Russia', 'Pop', 'Russian', 'R/U', 'V TEMNOTE TANTsUJ');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Taboo Tears You Up', 'Japan', 'Touhou', NULL, 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('이브의 경고', 'Korea', 'Dance ballad', 'Korean', 'K', 'ibeu-ui gyeonggo');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Abracadabra', 'Korea', 'Kpop', 'Korean', 'K', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Rumors', 'USA', 'Pop', 'English', 'cringe', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('With Love', 'USA', 'Pop', 'English', 'cringe', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Boogie Shoes', 'USA', 'Funk', 'English', 'Cx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('잘못된 만남', 'Korea', 'Kpop', 'Korean', 'K/Ox', 'jalmosdoen mannam');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Outside Castle (The Castle Outsiders)', 'Korea', 'Kpop', 'Korean', 'K', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Here I Am (Come and Take Me)', 'USA', 'R&B', 'English', 'Cx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Boogie Oogie Oogie', 'USA', 'Disco', 'English', 'Cx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Let It Whip', 'USA', 'R&B', 'English', 'Cx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Atomic Dog', 'USA', 'Funk', 'English', 'Cx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('2 Legit 2 Quit (feat. Saja)', 'USA', 'Hip hop', 'English', 'Ox', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Leave You Far Behind', 'UK', 'Big Beat', 'English', 'UK', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Them Changes', 'USA', 'Funk', 'English', 'Funk', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Pulse (Mahjong Instrumental Mix)', 'UK', 'Electronic', NULL, 'contemp', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Get Wavey', 'USA', 'Electronic', 'English', 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('texture bath', 'USA', 'Vaporwave', NULL, 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('2 Phút Hơn (KAIZ Remix)', 'Vietnam', 'Electronic', 'Vietnamese', 'Viet', '2 Phút Hơn (KAIZ Remix)');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Muito Calor', NULL, 'Latin', 'Spanish', 'Latin', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Mamacita (feat. Farruko)', 'USA', 'Pop', 'Spanish', 'Latin', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Soy Yo', 'Colombia', 'Electrocumbia', 'Spanish', 'Latin', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Um Côco', 'Netherlands', 'Brazilectro', NULL, 'Latin', 'Um Côco');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('野花香', 'China', 'Pop', 'Chinese', 'Cn', 'nobana kaori');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Doctor', 'Japan', 'Hip hop', 'Japanese', 'J', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('FORGIVE ME', 'Japan', 'Pop', 'Japanese', 'J', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('help_urself', 'UK', 'Dnb', 'English', 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Clear (Jose "Animal" Diaz Remix)', 'USA', 'Electro', 'English', 'Ox', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Addicted', 'Korea', 'Kpop', 'Korean', 'K', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('SWIPE', 'Korea', 'Kpop', 'Korean', 'K', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Alcohol-Free', 'Korea', 'Kpop', 'Korean', 'K', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('SO BAD', 'Korea', 'Kpop', 'Korean', 'K', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Shh', 'Japan', 'Jpop', 'Japanese', 'K', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Arcarsenal', 'USA', 'Post-hardcore', 'English', 'Rock', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Chicken Teriyaki', 'Spain', 'Reggaeton', 'Spanish', 'Latin', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('moment', 'Australia', 'Dnb', 'English', 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Same Song', 'USA', 'Hip hop', 'English', 'Ox', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('B.O.T.A. (Baddest Of Them All) - Edit', 'UK', 'House', 'English', 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Just Be Good to Me', 'USA', 'Funk', 'English', 'Ox', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('So Ruff, so Tuff', 'USA', 'Funk', 'English', 'Ox', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Burn Rubber On Me (Why You Wanna Hurt Me)', 'USA', 'Funk', 'English', 'Ox/Cx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Operator', 'USA', 'R&B dance', 'English', 'Ox', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Freak-a-Zoid', 'USA', 'Electro', 'English', 'Ox', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Зачем', 'Russia', 'Phonk', 'Russian', 'R/U', 'Zachem');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Zachem', 'Russia', 'phonk pop', 'Russian', 'R/U', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Ничья', 'Russia', 'Pop', 'Russian', 'R/U', 'Nych''ja');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Rapid Racer', 'UK', 'Dance', NULL, 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Про красивую жизнь', 'Russia', 'Pop', 'Russian', 'R/U', 'Pro krasyvuju zhyzn''');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Дай пять', 'Russia', 'Pop', 'Russian', 'R/U', 'Daj pjat''');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Coffin Nails', 'USA', NULL, NULL, 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Hot Summer', 'Germany', 'Dance pop', 'English', 'Pop', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Never Leave You (Uh Oooh, Uh Oooh)', 'USA', 'R&B', 'English', 'Pop', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Righteous', 'USA', 'Hip hop', NULL, 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Mais Que Nada', 'Brazil', 'Bossa Nova', 'Portuguese', 'Br', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Kerosene', 'Canada', 'House', NULL, 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Lying Has To Stop (feat. LA Priest, Connan Mockasin)', NULL, 'Funk pop', 'English', 'Contemp', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Drowning Butterflies', 'UK', 'Indie pop', 'English', 'UK', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('See Tình (Cukak Remix) (feat. Cukak)', 'Vietnam', 'V-pop', 'Vietnamese', 'Viet', 'See Tình (Cukak Remix)');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Tension', 'Australia', 'Dance pop', 'English', 'Pop', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Paso (The Nini Anthem) - Radio Edit', 'Spain', 'Dance pop', 'English', 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Monstrão', 'Brazil', 'Tamborzão', 'Portuguese', 'Br', 'Monstrão');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Night Nurse', 'Jamaica', 'Reggae', 'English', 'Reggae', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Nasty', 'UK', 'Punk', 'English', 'UK', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Coral Mimic', 'UK', 'Industrial', 'English', 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Pedro', NULL, 'EDM', 'Italian', 'It', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Here We Go (Uh Oh)', 'USA', 'R&B', 'English', 'R&B', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Ate That', 'Korea', 'Kpop', 'Korean', 'K', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Sounds Like a Melody', 'UK', 'Synth pop', 'English', 'UK', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('mr useless (feat. SG Lewis)', 'UK', 'Dance pop', 'English', 'Pop', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('thicc (feat. Cosha)', 'UK', 'Dance pop', 'English', 'Pop', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('The Substance', 'UK', 'Dark ambient', NULL, 'Fx', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Vmeste My', 'Russia', 'Dark pop', 'Russian', 'R/U', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Headlock', 'UK', 'Electropop', 'English', 'Pop', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Strange Moves (feat. KAZAKY)', 'Ukraine', 'Electropop', 'English', 'R/U', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Кохаю, але не зовсім', 'Ukraine', 'Dance pop', 'Ukrainian', 'R/U', 'Kokhaju, ale ne zovsim');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Японія', 'Ukraine', 'Dance pop', 'Ukrainian', 'R/U', 'Japonija');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Забий', 'Ukraine', 'Dance pop', 'Ukrainian', 'R/U', 'Zabyj');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Температура', 'Ukraine', 'Dance pop', 'Ukrainian', 'R/U', 'Temperatura');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Долоні', 'Ukraine', 'Dance pop', 'Ukrainian', 'R/U', 'Doloni');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Smoke Me', 'Moldova', 'Pop', 'English', 'Pop', NULL);
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Touché', 'Moldova', 'Pop', 'French', 'Pop', 'Touché');
+INSERT INTO songs (title, genre, language, notes, alias) VALUES ('Касета', 'Ukraine', 'Post punk', 'Ukrainian', 'R/U', 'Kaseta');
 
 INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (1, 1, 'primary');
 INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (2, 2, 'primary');
@@ -174,1175 +412,179 @@ INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (54, 46, 'p
 INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (55, 47, 'primary');
 INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (56, 48, 'primary');
 INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (57, 49, 'primary');
-
--- [2026-03-31] 嘘みたいな (I Love You) — 宇多田ヒカル
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('嘘みたいな (I Love You)', 'Japan', 'uso mitaina  (I Love You )', 'Pop', 286, 'Japanese', 'J');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = '嘘みたいな (I Love You)'
-)
-AND a.name = '宇多田ヒカル';
-
--- [2026-03-31] Synrise — Goose
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Synrise', 'UK', NULL, 'Electronic', 332, 'n/a', 'Fx');
-INSERT INTO artists (name, alias) VALUES ('Goose', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Synrise'
-)
-AND a.name = 'Goose';
-
--- [2026-03-31] All Night Long — Mary Jane Girls
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('All Night Long', 'USA', NULL, 'Funk', 334, 'English', 'Cx');
-INSERT INTO artists (name, alias) VALUES ('Mary Jane Girls', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'All Night Long'
-)
-AND a.name = 'Mary Jane Girls';
-
--- [2026-03-31] Buffalo Stance — Neneh Cherry
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Buffalo Stance', 'UK', NULL, 'Hip hop', 342, 'English', 'Ox');
-INSERT INTO artists (name, alias) VALUES ('Neneh Cherry', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Buffalo Stance'
-)
-AND a.name = 'Neneh Cherry';
-
--- [2026-03-31] Move On Up (Single Edit) — Curtis Mayfield
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Move On Up (Single Edit)', 'USA', NULL, 'Progressive soul', 173, 'English', 'Cx');
-INSERT INTO artists (name, alias) VALUES ('Curtis Mayfield', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Move On Up (Single Edit)'
-)
-AND a.name = 'Curtis Mayfield';
-
--- [2026-03-31] We're Rocking The Planet — Hashim
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('We''re Rocking The Planet', 'USA', NULL, 'Electro', 346, 'English', 'Ox');
-INSERT INTO artists (name, alias) VALUES ('Hashim', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'We''re Rocking The Planet'
-)
-AND a.name = 'Hashim';
-
--- [2026-03-31] Al-Naafiysh (The Soul) — Hashim
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Al-Naafiysh (The Soul)', 'USA', NULL, 'Electro', 333, NULL, 'Ox');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Al-Naafiysh (The Soul)'
-)
-AND a.name = 'Hashim';
-
--- [2026-03-31] Sucker M.C.'s (Krush-Groove 1) — Run-D.M.C.
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Sucker M.C.''s (Krush-Groove 1)', 'USA', NULL, 'Hip hop', 189, 'English', 'Ox');
-INSERT INTO artists (name, alias) VALUES ('Run-D.M.C.', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Sucker M.C.''s (Krush-Groove 1)'
-)
-AND a.name = 'Run-D.M.C.';
-
--- [2026-03-31] Sponji Reggae — Black Uhuru
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Sponji Reggae', 'Jamaica', NULL, 'Roots reggae', 293, 'English', 'Reggae');
-INSERT INTO artists (name, alias) VALUES ('Black Uhuru', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Sponji Reggae'
-)
-AND a.name = 'Black Uhuru';
-
--- [2026-03-31] Columbus - 2002 Remastered Version — Burning Spear
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Columbus - 2002 Remastered Version', 'Jamaica', NULL, 'Roots reggae', 217, 'English', 'Reggae');
-INSERT INTO artists (name, alias) VALUES ('Burning Spear', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Columbus - 2002 Remastered Version'
-)
-AND a.name = 'Burning Spear';
-
--- [2026-03-31] Zungguzungguguzungguzeng — Yellowman
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Zungguzungguguzungguzeng', 'Jamaica', NULL, 'Dancehall', 387, 'English', 'Reggae');
-INSERT INTO artists (name, alias) VALUES ('Yellowman', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Zungguzungguguzungguzeng'
-)
-AND a.name = 'Yellowman';
-
--- [2026-03-31] Nobody Move Nobody Get Hurt — Yellowman
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Nobody Move Nobody Get Hurt', 'Jamaica', NULL, 'Dancehall', 223, 'English', 'Reggae');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Nobody Move Nobody Get Hurt'
-)
-AND a.name = 'Yellowman';
-
--- [2026-03-31] Funky Worm — Ohio Players
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Funky Worm', 'USA', NULL, 'Funk', 161, 'English', 'Cx');
-INSERT INTO artists (name, alias) VALUES ('Ohio Players', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Funky Worm'
-)
-AND a.name = 'Ohio Players';
-
--- [2026-03-31] Skin Tight — Ohio Players
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Skin Tight', 'USA', NULL, 'Funk', 474, 'English', 'Cx');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Skin Tight'
-)
-AND a.name = 'Ohio Players';
-
--- [2026-03-31] Street Player — Chicago
-
--- [2026-03-31] FILTH IN THE BEAUTY — the GazettE
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('FILTH IN THE BEAUTY', 'Japan', NULL, 'Visual Kei', 251, 'Japanese', 'J');
-INSERT INTO artists (name, alias) VALUES ('the GazettE', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'FILTH IN THE BEAUTY'
-)
-AND a.name = 'the GazettE';
-
--- [2026-03-31] Give Up The Funk (Tear The Roof Off The Sucker) — Parliament
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Give Up The Funk (Tear The Roof Off The Sucker)', 'USA', NULL, 'Funk', 348, 'English', 'Cx');
-INSERT INTO artists (name, alias) VALUES ('Parliament', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Give Up The Funk (Tear The Roof Off The Sucker)'
-)
-AND a.name = 'Parliament';
-
--- [2026-03-31] Heliosphan — Aphex Twin
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Heliosphan', 'UK', NULL, 'Ambient', 296, NULL, 'Fx');
-INSERT INTO artists (name, alias) VALUES ('Aphex Twin', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Heliosphan'
-)
-AND a.name = 'Aphex Twin';
-
--- [2026-03-31] He's the Greatest Dancer — Sister Sledge
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('He''s the Greatest Dancer', 'USA', NULL, 'Disco', 376, 'English', 'Cx');
-INSERT INTO artists (name, alias) VALUES ('Sister Sledge', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'He''s the Greatest Dancer'
-)
-AND a.name = 'Sister Sledge';
-
--- [2026-03-31] Get Off — Foxy
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Get Off', 'USA', NULL, 'Disco', 244, 'English', 'Cx');
-INSERT INTO artists (name, alias) VALUES ('Foxy', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Get Off'
-)
-AND a.name = 'Foxy';
-
--- [2026-03-31] Likey — TWICE
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Likey', 'Korea', NULL, 'Kpop', 207, 'Korean', 'K');
-INSERT INTO artists (name, alias) VALUES ('TWICE', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Likey'
-)
-AND a.name = 'TWICE';
-
--- [2026-03-31] CHERRY — ITZY
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('CHERRY', 'Korea', NULL, 'Kpop', 190, 'Korean', 'K');
-INSERT INTO artists (name, alias) VALUES ('ITZY', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'CHERRY'
-)
-AND a.name = 'ITZY';
-
--- [2026-03-31] HIP — MAMAMOO
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('HIP', 'Korea', NULL, 'Kpop', 195, 'Korean', 'K');
-INSERT INTO artists (name, alias) VALUES ('MAMAMOO', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'HIP'
-)
-AND a.name = 'MAMAMOO';
-
--- [2026-03-31] I Can Make You Dance — Zapp
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('I Can Make You Dance', 'USA', NULL, 'Disco', 239, 'English', 'Ox');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'I Can Make You Dance'
-)
-AND a.name = 'Zapp';
-
--- [2026-03-31] Good Times — CHIC
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Good Times', 'USA', NULL, 'Disco', 495, 'English', 'Ox');
-INSERT INTO artists (name, alias) VALUES ('CHIC', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Good Times'
-)
-AND a.name = 'CHIC';
-
--- [2026-03-31] Natty Rebel — U-Roy
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Natty Rebel', 'USA', NULL, 'Dub', 204, 'English', 'Reggae');
-INSERT INTO artists (name, alias) VALUES ('U-Roy', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Natty Rebel'
-)
-AND a.name = 'U-Roy';
-
--- [2026-04-01] Moonlight Romance — Amazulu
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Moonlight Romance', 'UK', NULL, 'Soul', 211, 'English', 'Reggae');
-INSERT INTO artists (name, alias) VALUES ('Amazulu', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Moonlight Romance'
-)
-AND a.name = 'Amazulu';
-
--- [2026-04-01] Bright Lights (Netsky Remix) — Die & Interface, William Cartwright
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Bright Lights (Netsky Remix)', 'UK', NULL, 'Electronic', 290, 'English', 'Fx');
-INSERT INTO artists (name, alias) VALUES ('Die & Interface', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Bright Lights (Netsky Remix)'
-)
-AND a.name = 'Die & Interface';
-INSERT INTO artists (name, alias) VALUES ('William Cartwright', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'featured'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Bright Lights (Netsky Remix)'
-)
-AND a.name = 'William Cartwright';
-UPDATE songs SET title = 'Bright Lights (Netsky Remix) (feat. William Cartwright)' WHERE title = 'Bright Lights (Netsky Remix)';
-
--- [2026-04-01] Big Brother UK TV Theme (Vocal Mix - Radio Edit) — ElementFour
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Big Brother UK TV Theme (Vocal Mix - Radio Edit)', 'UK', NULL, 'Trance', 200, 'English', 'Fx');
-INSERT INTO artists (name, alias) VALUES ('ElementFour', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Big Brother UK TV Theme (Vocal Mix - Radio Edit)'
-)
-AND a.name = 'ElementFour';
-
--- [2026-04-01] セニョール セニョーラ セニョリータ — MIYAVI
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('セニョール セニョーラ セニョリータ', 'Japan', 'senyooru   senyoora   senyoriita', 'Pop', 263, 'Japanese', 'J');
-INSERT INTO artists (name, alias) VALUES ('MIYAVI', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'セニョール セニョーラ セニョリータ'
-)
-AND a.name = 'MIYAVI';
-
--- [2026-04-01] MIЯROR — D'espairsRay
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('MIЯROR', 'Japan', 'MIJaROR', 'Visual kei', 250, 'Japanese', 'J');
-INSERT INTO artists (name, alias) VALUES ('D''espairsRay', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'MIЯROR'
-)
-AND a.name = 'D''espairsRay';
-
--- [2026-04-01] Lost Scene — D'espairsRay
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Lost Scene', 'Japan', NULL, 'Visual kei', 268, 'Japanese', 'J');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Lost Scene'
-)
-AND a.name = 'D''espairsRay';
-
--- [2026-04-01] Tu Sicaria — Ms Nina, Beauty Brain
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Tu Sicaria', 'Spain', NULL, 'Perreo', 147, 'Spanish', 'Latin');
-INSERT INTO artists (name, alias) VALUES ('Ms Nina', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Tu Sicaria'
-)
-AND a.name = 'Ms Nina';
-INSERT INTO artists (name, alias) VALUES ('Beauty Brain', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Tu Sicaria'
-)
-AND a.name = 'Beauty Brain';
-
--- [2026-04-01] 홀리가든 — 비디오로즈
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('홀리가든', 'Korea', 'holligadeun', 'Synth pop', 145, 'English', 'K');
-INSERT INTO artists (name, alias) VALUES ('비디오로즈', 'bidi-olojeu');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = '홀리가든'
-)
-AND a.name = '비디오로즈';
-
--- [2026-04-01] Afterglow — FAKY
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Afterglow', 'Japan', NULL, 'Jpop', 187, 'Japanese', 'J');
-INSERT INTO artists (name, alias) VALUES ('FAKY', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Afterglow'
-)
-AND a.name = 'FAKY';
-
--- [2026-04-01] В ТЕМНОТЕ ТАНЦУЙ — ЯАVЬ
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('В ТЕМНОТЕ ТАНЦУЙ', 'Russia', 'V TEMNOTE TANTsUJ', 'Pop', 240, 'Russian', 'R/U');
-INSERT INTO artists (name, alias) VALUES ('ЯАVЬ', 'JaAV''');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'В ТЕМНОТЕ ТАНЦУЙ'
-)
-AND a.name = 'ЯАVЬ';
-
--- [2026-04-01] Taboo Tears You Up — IOSYS
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Taboo Tears You Up', 'Japan', NULL, 'Touhou', 218, NULL, 'Fx');
-INSERT INTO artists (name, alias) VALUES ('IOSYS', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Taboo Tears You Up'
-)
-AND a.name = 'IOSYS';
-
--- [2026-04-01] 이브의 경고 — 박미경
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('이브의 경고', 'Korea', 'ibeu-ui gyeonggo', 'Dance ballad', 252, 'Korean', 'K');
-INSERT INTO artists (name, alias) VALUES ('박미경', 'bagmigyeong');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = '이브의 경고'
-)
-AND a.name = '박미경';
-
--- [2026-04-01] Abracadabra — Brown Eyed Girls
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Abracadabra', 'Korea', NULL, 'Kpop', 184, 'Korean', 'K');
-INSERT INTO artists (name, alias) VALUES ('Brown Eyed Girls', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Abracadabra'
-)
-AND a.name = 'Brown Eyed Girls';
-
--- [2026-04-01] Rumors — Lindsay Lohan
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Rumors', 'USA', NULL, 'Pop', 196, 'English', 'cringe');
-INSERT INTO artists (name, alias) VALUES ('Lindsay Lohan', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Rumors'
-)
-AND a.name = 'Lindsay Lohan';
-
--- [2026-04-01] With Love — Hillary Duff
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('With Love', 'USA', NULL, 'Pop', 181, 'English', 'cringe');
-INSERT INTO artists (name, alias) VALUES ('Hillary Duff', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'With Love'
-)
-AND a.name = 'Hillary Duff';
-
--- [2026-04-01] Boogie Shoes — KC & The Sunshine Band
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Boogie Shoes', 'USA', NULL, 'Funk', 132, 'English', 'Cx');
-INSERT INTO artists (name, alias) VALUES ('KC & The Sunshine Band', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Boogie Shoes'
-)
-AND a.name = 'KC & The Sunshine Band';
-
--- [2026-04-01] 잘못된 만남 — 김건모
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('잘못된 만남', 'Korea', 'jalmosdoen mannam', 'Kpop', 258, 'Korean', 'K/Ox');
-INSERT INTO artists (name, alias) VALUES ('김건모', 'gimgeonmo');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = '잘못된 만남'
-)
-AND a.name = '김건모';
-
--- [2026-04-01] Outside Castle (The Castle Outsiders) — 에쵸티
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Outside Castle (The Castle Outsiders)', 'Korea', NULL, 'Kpop', 326, 'Korean', 'K');
-INSERT INTO artists (name, alias) VALUES ('에쵸티', 'echyoti');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Outside Castle (The Castle Outsiders)'
-)
-AND a.name = '에쵸티';
-
--- [2026-04-01] Here I Am (Come and Take Me) — Al Green
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Here I Am (Come and Take Me)', 'USA', NULL, 'R&B', 257, 'English', 'Cx');
-INSERT INTO artists (name, alias) VALUES ('Al Green', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Here I Am (Come and Take Me)'
-)
-AND a.name = 'Al Green';
-
--- [2026-04-01] Boogie Oogie Oogie — A Taste Of Honey
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Boogie Oogie Oogie', 'USA', NULL, 'Disco', 337, 'English', 'Cx');
-INSERT INTO artists (name, alias) VALUES ('A Taste Of Honey', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Boogie Oogie Oogie'
-)
-AND a.name = 'A Taste Of Honey';
-
--- [2026-04-01] Let It Whip — Dazz Band
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Let It Whip', 'USA', NULL, 'R&B', 281, 'English', 'Cx');
-INSERT INTO artists (name, alias) VALUES ('Dazz Band', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Let It Whip'
-)
-AND a.name = 'Dazz Band';
-
--- [2026-04-01] Atomic Dog — George Clinton
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Atomic Dog', 'USA', NULL, 'Funk', 255, 'English', 'Cx');
-INSERT INTO artists (name, alias) VALUES ('George Clinton', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Atomic Dog'
-)
-AND a.name = 'George Clinton';
-
--- [2026-04-01] 2 Legit 2 Quit — MC Hammer, Saja
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('2 Legit 2 Quit', 'USA', NULL, 'Hip hop', 336, 'English', 'Ox');
-INSERT INTO artists (name, alias) VALUES ('MC Hammer', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = '2 Legit 2 Quit'
-)
-AND a.name = 'MC Hammer';
-INSERT INTO artists (name, alias) VALUES ('Saja', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'featured'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = '2 Legit 2 Quit'
-)
-AND a.name = 'Saja';
-UPDATE songs SET title = '2 Legit 2 Quit (feat. Saja)' WHERE title = '2 Legit 2 Quit';
-
--- [2026-04-01] Leave You Far Behind — Lunatic Calm
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Leave You Far Behind', 'UK', NULL, 'Big Beat', 192, 'English', 'UK');
-INSERT INTO artists (name, alias) VALUES ('Lunatic Calm', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Leave You Far Behind'
-)
-AND a.name = 'Lunatic Calm';
-
--- [2026-04-01] Them Changes — Thundercat
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Them Changes', 'USA', NULL, 'Funk', 188, 'English', 'Funk');
-INSERT INTO artists (name, alias) VALUES ('Thundercat', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Them Changes'
-)
-AND a.name = 'Thundercat';
-
--- [2026-04-01] Pulse (Mahjong Instrumental Mix) — Malexa
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Pulse (Mahjong Instrumental Mix)', 'UK', NULL, 'Electronic', 471, NULL, 'contemp');
-INSERT INTO artists (name, alias) VALUES ('Malexa', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Pulse (Mahjong Instrumental Mix)'
-)
-AND a.name = 'Malexa';
-
--- [2026-04-01] Get Wavey — Redlight
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Get Wavey', 'USA', NULL, 'Electronic', 310, 'English', 'Fx');
-INSERT INTO artists (name, alias) VALUES ('Redlight', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Get Wavey'
-)
-AND a.name = 'Redlight';
-
--- [2026-04-01] texture bath — FM Skyline
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('texture bath', 'USA', NULL, 'Vaporwave', 222, NULL, 'Fx');
-INSERT INTO artists (name, alias) VALUES ('FM Skyline', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'texture bath'
-)
-AND a.name = 'FM Skyline';
-
--- [2026-04-01] 2 Phút Hơn (KAIZ Remix) — Pháo
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('2 Phút Hơn (KAIZ Remix)', 'Vietnam', '2 Phút Hơn (KAIZ Remix)', 'Electronic', 184, 'Vietnamese', 'Viet');
-INSERT INTO artists (name, alias) VALUES ('Pháo', 'Pháo');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = '2 Phút Hơn (KAIZ Remix)'
-)
-AND a.name = 'Pháo';
-
--- [2026-04-02] Muito Calor — Ozuna, Anitta
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Muito Calor', NULL, NULL, 'Latin', 185, 'Spanish', 'Latin');
-INSERT INTO artists (name, alias) VALUES ('Ozuna', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Muito Calor'
-)
-AND a.name = 'Ozuna';
-INSERT INTO artists (name, alias) VALUES ('Anitta', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Muito Calor'
-)
-AND a.name = 'Anitta';
-
--- [2026-04-02] Mamacita — Jason Derulo, Farruko
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Mamacita', 'USA', NULL, 'Pop', 204, 'Spanish', 'Latin');
-INSERT INTO artists (name, alias) VALUES ('Jason Derulo', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Mamacita'
-)
-AND a.name = 'Jason Derulo';
-INSERT INTO artists (name, alias) VALUES ('Farruko', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'featured'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Mamacita'
-)
-AND a.name = 'Farruko';
-UPDATE songs SET title = 'Mamacita (feat. Farruko)' WHERE title = 'Mamacita';
-
--- [2026-04-02] Soy Yo — Bomba Estéreo
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Soy Yo', 'Colombia', NULL, 'Electrocumbia', 159, 'Spanish', 'Latin');
-INSERT INTO artists (name, alias) VALUES ('Bomba Estéreo', 'Bomba Estéreo');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Soy Yo'
-)
-AND a.name = 'Bomba Estéreo';
-
--- [2026-04-02] Um Côco — Zuco 103
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Um Côco', 'Netherlands', 'Um Côco', 'Brazilectro', 260, NULL, 'Latin');
-INSERT INTO artists (name, alias) VALUES ('Zuco 103', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Um Côco'
-)
-AND a.name = 'Zuco 103';
-
--- [2026-04-03] 野花香 — 莫斯滿, 老貓
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('野花香', 'China', 'nobana kaori', 'Pop', 192, 'Chinese', 'Cn');
-INSERT INTO artists (name, alias) VALUES ('莫斯滿', 'baku shi man');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = '野花香'
-)
-AND a.name = '莫斯滿';
-INSERT INTO artists (name, alias) VALUES ('老貓', 'rou');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = '野花香'
-)
-AND a.name = '老貓';
-
--- [2026-04-03] Doctor — ちゃんみな
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Doctor', 'Japan', NULL, 'Hip hop', 183, 'Japanese', 'J');
-INSERT INTO artists (name, alias) VALUES ('ちゃんみな', 'chanmina');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Doctor'
-)
-AND a.name = 'ちゃんみな';
-
--- [2026-04-03] FORGIVE ME — ちゃんみな
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('FORGIVE ME', 'Japan', NULL, 'Pop', 143, 'Japanese', 'J');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'FORGIVE ME'
-)
-AND a.name = 'ちゃんみな';
-
--- [2026-04-03] help_urself — Ezekiel
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('help_urself', 'UK', NULL, 'Dnb', 140, 'English', 'Fx');
-INSERT INTO artists (name, alias) VALUES ('Ezekiel', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'help_urself'
-)
-AND a.name = 'Ezekiel';
-
--- [2026-04-04] Clear (Jose "Animal" Diaz Remix) — Cybotron
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Clear (Jose "Animal" Diaz Remix)', 'USA', NULL, 'Electro', 294, 'English', 'Ox');
-INSERT INTO artists (name, alias) VALUES ('Cybotron', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Clear (Jose "Animal" Diaz Remix)'
-)
-AND a.name = 'Cybotron';
-
--- [2026-04-04] Addicted — PIXY
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Addicted', 'Korea', NULL, 'Kpop', 197, 'Korean', 'K');
-INSERT INTO artists (name, alias) VALUES ('PIXY', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Addicted'
-)
-AND a.name = 'PIXY';
-
--- [2026-04-04] SWIPE — ITZY
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('SWIPE', 'Korea', NULL, 'Kpop', 177, 'Korean', 'K');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'SWIPE'
-)
-AND a.name = 'ITZY';
-
--- [2026-04-04] Alcohol-Free — TWICE
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Alcohol-Free', 'Korea', NULL, 'Kpop', 210, 'Korean', 'K');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Alcohol-Free'
-)
-AND a.name = 'TWICE';
-
--- [2026-04-04] SO BAD — STAYC
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('SO BAD', 'Korea', NULL, 'Kpop', 212, 'Korean', 'K');
-INSERT INTO artists (name, alias) VALUES ('STAYC', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'SO BAD'
-)
-AND a.name = 'STAYC';
-
--- [2026-04-04] Shh — After School
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Shh', 'Japan', NULL, 'Jpop', 295, 'Japanese', 'K');
-INSERT INTO artists (name, alias) VALUES ('After School', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Shh'
-)
-AND a.name = 'After School';
-
--- [2026-04-04] Arcarsenal — At the Drive-In
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Arcarsenal', 'USA', NULL, 'Post-hardcore', 174, 'English', 'Rock');
-INSERT INTO artists (name, alias) VALUES ('At the Drive-In', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Arcarsenal'
-)
-AND a.name = 'At the Drive-In';
-
--- [2026-04-04] Chicken Teriyaki — ROSALÍA
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Chicken Teriyaki', 'Spain', NULL, 'Reggaeton', 122, 'Spanish', 'Latin');
-INSERT INTO artists (name, alias) VALUES ('ROSALÍA', 'ROSALÍA');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Chicken Teriyaki'
-)
-AND a.name = 'ROSALÍA';
-
--- [2026-04-04] moment — Vierre Cloud
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('moment', 'Australia', NULL, 'Dnb', 129, 'English', 'Fx');
-INSERT INTO artists (name, alias) VALUES ('Vierre Cloud', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'moment'
-)
-AND a.name = 'Vierre Cloud';
-
--- [2026-04-04] Same Song — Digital Underground
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Same Song', 'USA', NULL, 'Hip hop', 390, 'English', 'Ox');
-INSERT INTO artists (name, alias) VALUES ('Digital Underground', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Same Song'
-)
-AND a.name = 'Digital Underground';
-
--- [2026-04-04] B.O.T.A. (Baddest Of Them All) - Edit — Eliza Rose, Interplanetary Criminal
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('B.O.T.A. (Baddest Of Them All) - Edit', 'UK', NULL, 'House', 226, 'English', 'Fx');
-INSERT INTO artists (name, alias) VALUES ('Eliza Rose', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'B.O.T.A. (Baddest Of Them All) - Edit'
-)
-AND a.name = 'Eliza Rose';
-INSERT INTO artists (name, alias) VALUES ('Interplanetary Criminal', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'B.O.T.A. (Baddest Of Them All) - Edit'
-)
-AND a.name = 'Interplanetary Criminal';
-
--- [2026-04-05] Just Be Good to Me — the S.O.S. Band
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Just Be Good to Me', 'USA', NULL, 'Funk', 250, 'English', 'Ox');
-INSERT INTO artists (name, alias) VALUES ('the S.O.S. Band', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Just Be Good to Me'
-)
-AND a.name = 'the S.O.S. Band';
-
--- [2026-04-05] So Ruff, so Tuff — Zapp
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('So Ruff, so Tuff', 'USA', NULL, 'Funk', 215, 'English', 'Ox');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'So Ruff, so Tuff'
-)
-AND a.name = 'Zapp';
-
--- [2026-04-05] Burn Rubber On Me (Why You Wanna Hurt Me) — The Gap Band
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Burn Rubber On Me (Why You Wanna Hurt Me)', 'USA', NULL, 'Funk', 252, 'English', 'Ox/Cx');
-INSERT INTO artists (name, alias) VALUES ('The Gap Band', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Burn Rubber On Me (Why You Wanna Hurt Me)'
-)
-AND a.name = 'The Gap Band';
-
--- [2026-04-05] Operator — Midnight Star
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Operator', 'USA', NULL, 'R&B dance', 448, 'English', 'Ox');
-INSERT INTO artists (name, alias) VALUES ('Midnight Star', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Operator'
-)
-AND a.name = 'Midnight Star';
-
--- [2026-04-05] Freak-a-Zoid — Midnight Star
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Freak-a-Zoid', 'USA', NULL, 'Electro', 485, 'English', 'Ox');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Freak-a-Zoid'
-)
-AND a.name = 'Midnight Star';
-
--- [2026-04-05] Буду с тобой — 5sta Family
-
--- [2026-04-05] Зачем — АДЛИН, Килджо, 5sta Family
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Зачем', 'Russia', 'Zachem', 'Phonk', 168, 'Russian', 'R/U');
-INSERT INTO artists (name, alias) VALUES ('АДЛИН', 'ADLYN');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Зачем'
-)
-AND a.name = 'АДЛИН';
-INSERT INTO artists (name, alias) VALUES ('Килджо', 'Kyldzho');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Зачем'
-)
-AND a.name = 'Килджо';
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Зачем'
-)
-AND a.name = '5sta Family';
-
--- [2026-04-05] Zachem — 6YNTHMANE, 5sta Family, BAbyBoi
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Zachem', 'Russia', NULL, 'phonk pop', 112, 'Russian', 'R/U');
-INSERT INTO artists (name, alias) VALUES ('6YNTHMANE', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Zachem'
-)
-AND a.name = '6YNTHMANE';
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Zachem'
-)
-AND a.name = '5sta Family';
-INSERT INTO artists (name, alias) VALUES ('BAbyBoi', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Zachem'
-)
-AND a.name = 'BAbyBoi';
-
--- [2026-04-05] Ничья — Nichya
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Ничья', 'Russia', 'Nych''ja', 'Pop', 200, 'Russian', 'R/U');
-INSERT INTO artists (name, alias) VALUES ('Nichya', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Ничья'
-)
-AND a.name = 'Nichya';
-
--- [2026-04-05] Rapid Racer — Lone
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Rapid Racer', 'UK', NULL, 'Dance', 252, NULL, 'Fx');
-INSERT INTO artists (name, alias) VALUES ('Lone', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Rapid Racer'
-)
-AND a.name = 'Lone';
-
--- [2026-04-05] Про красивую жизнь — Банд’Эрос
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Про красивую жизнь', 'Russia', 'Pro krasyvuju zhyzn''', 'Pop', 221, 'Russian', 'R/U');
-INSERT INTO artists (name, alias) VALUES ('Банд’Эрос', 'Band’Эros');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Про красивую жизнь'
-)
-AND a.name = 'Банд’Эрос';
-
--- [2026-04-05] Дай пять — Банд’Эрос
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Дай пять', 'Russia', 'Daj pjat''', 'Pop', 181, 'Russian', 'R/U');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Дай пять'
-)
-AND a.name = 'Банд’Эрос';
-
--- [2026-04-05] Footsteps in the Dark, Pts. 1 & 2 — The Isley Brothers
-
--- [2026-04-05] Coffin Nails — MF DOOM
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Coffin Nails', 'USA', NULL, NULL, 176, NULL, 'Fx');
-INSERT INTO artists (name, alias) VALUES ('MF DOOM', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Coffin Nails'
-)
-AND a.name = 'MF DOOM';
-
--- [2026-04-05] Hot Summer — Monrose
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Hot Summer', 'Germany', NULL, 'Dance pop', 210, 'English', 'Pop');
-INSERT INTO artists (name, alias) VALUES ('Monrose', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Hot Summer'
-)
-AND a.name = 'Monrose';
-
--- [2026-04-05] Never Leave You (Uh Oooh, Uh Oooh) — Lumidee
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Never Leave You (Uh Oooh, Uh Oooh)', 'USA', NULL, 'R&B', 184, 'English', 'Pop');
-INSERT INTO artists (name, alias) VALUES ('Lumidee', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Never Leave You (Uh Oooh, Uh Oooh)'
-)
-AND a.name = 'Lumidee';
-
--- [2026-04-05] Righteous — Mo Beats
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Righteous', 'USA', NULL, 'Hip hop', 163, NULL, 'Fx');
-INSERT INTO artists (name, alias) VALUES ('Mo Beats', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Righteous'
-)
-AND a.name = 'Mo Beats';
-
--- [2026-04-05] Mais Que Nada — Sergio Mendes & Brasil '66
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Mais Que Nada', 'Brazil', NULL, 'Bossa Nova', 159, 'Portuguese', 'Br');
-INSERT INTO artists (name, alias) VALUES ('Sergio Mendes & Brasil ''66', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Mais Que Nada'
-)
-AND a.name = 'Sergio Mendes & Brasil ''66';
-
--- [2026-04-05] Kerosene — Crystal Castles
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Kerosene', 'Canada', NULL, 'House', 192, NULL, 'Fx');
-INSERT INTO artists (name, alias) VALUES ('Crystal Castles', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Kerosene'
-)
-AND a.name = 'Crystal Castles';
-
--- [2026-04-05] Lying Has To Stop — Soft Hair, LA Priest, Connan Mockasin
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Lying Has To Stop', NULL, NULL, 'Funk pop', 356, 'English', 'Contemp');
-INSERT INTO artists (name, alias) VALUES ('Soft Hair', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Lying Has To Stop'
-)
-AND a.name = 'Soft Hair';
-INSERT INTO artists (name, alias) VALUES ('LA Priest', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'featured'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Lying Has To Stop'
-)
-AND a.name = 'LA Priest';
-INSERT INTO artists (name, alias) VALUES ('Connan Mockasin', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'featured'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Lying Has To Stop'
-)
-AND a.name = 'Connan Mockasin';
-UPDATE songs SET title = 'Lying Has To Stop (feat. LA Priest, Connan Mockasin)' WHERE title = 'Lying Has To Stop';
-
--- [2026-04-05] Drowning Butterflies — The Cleaners From Venus
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Drowning Butterflies', 'UK', NULL, 'Indie pop', 300, 'English', 'UK');
-INSERT INTO artists (name, alias) VALUES ('The Cleaners From Venus', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Drowning Butterflies'
-)
-AND a.name = 'The Cleaners From Venus';
-
--- [2026-04-05] See Tình (Cukak Remix) — Hoàng Thùy Linh, Cukak
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('See Tình (Cukak Remix)', 'Vietnam', 'See Tình (Cukak Remix)', 'V-pop', 170, 'Vietnamese', 'Viet');
-INSERT INTO artists (name, alias) VALUES ('Hoàng Thùy Linh', 'Hoàng Thùy Linh');
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'See Tình (Cukak Remix)'
-)
-AND a.name = 'Hoàng Thùy Linh';
-INSERT INTO artists (name, alias) VALUES ('Cukak', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'featured'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'See Tình (Cukak Remix)'
-)
-AND a.name = 'Cukak';
-UPDATE songs SET title = 'See Tình (Cukak Remix) (feat. Cukak)' WHERE title = 'See Tình (Cukak Remix)';
-
--- [2026-04-05] Tension — Kylie Minogue
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Tension', 'Australia', NULL, 'Dance pop', 216, 'English', 'Pop');
-INSERT INTO artists (name, alias) VALUES ('Kylie Minogue', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Tension'
-)
-AND a.name = 'Kylie Minogue';
-
--- [2026-04-05] Paso (The Nini Anthem) - Radio Edit — Sak Noel
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Paso (The Nini Anthem) - Radio Edit', 'Spain', NULL, 'Dance pop', 197, 'English', 'Fx');
-INSERT INTO artists (name, alias) VALUES ('Sak Noel', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Paso (The Nini Anthem) - Radio Edit'
-)
-AND a.name = 'Sak Noel';
-
--- [2026-04-05] Monstrão — DENNIS, Anitta
-INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Monstrão', 'Brazil', 'Monstrão', 'Tamborzão', 127, 'Portuguese', 'Br');
-INSERT INTO artists (name, alias) VALUES ('DENNIS', NULL);
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Monstrão'
-)
-AND a.name = 'DENNIS';
-INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
-SELECT s.id, a.id, 'primary'
-FROM songs s, artists a
-WHERE s.rowid = (
-    SELECT MAX(rowid) FROM songs WHERE title = 'Monstrão'
-)
-AND a.name = 'Anitta';
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (58, 49, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (59, 50, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (60, 51, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (61, 52, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (62, 53, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (63, 54, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (64, 54, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (65, 55, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (66, 56, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (67, 57, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (68, 58, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (69, 58, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (70, 59, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (71, 59, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (72, 60, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (73, 61, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (74, 62, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (75, 63, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (76, 64, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (77, 65, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (78, 66, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (79, 67, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (80, 38, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (81, 68, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (82, 69, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (83, 70, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (84, 71, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (84, 72, 'featured');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (85, 73, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (86, 74, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (87, 75, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (88, 75, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (89, 76, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (89, 77, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (90, 78, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (91, 79, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (92, 80, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (93, 81, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (94, 82, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (95, 83, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (96, 84, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (97, 85, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (98, 86, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (99, 87, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (100, 88, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (101, 89, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (102, 90, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (103, 91, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (104, 92, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (105, 93, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (105, 94, 'featured');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (106, 95, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (107, 96, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (108, 97, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (109, 98, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (110, 99, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (111, 100, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (112, 101, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (112, 102, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (113, 103, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (113, 104, 'featured');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (114, 105, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (115, 106, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (116, 107, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (116, 108, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (117, 109, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (118, 109, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (119, 110, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (120, 111, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (121, 112, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (122, 66, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (123, 65, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (124, 113, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (125, 114, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (126, 115, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (127, 116, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (128, 117, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (129, 118, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (130, 119, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (130, 120, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (131, 121, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (132, 38, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (133, 122, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (134, 123, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (135, 123, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (136, 17, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (136, 124, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (136, 125, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (137, 17, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (137, 126, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (137, 127, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (138, 128, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (139, 129, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (140, 130, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (141, 130, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (142, 131, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (143, 132, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (144, 133, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (145, 134, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (146, 135, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (147, 136, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (148, 137, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (148, 138, 'featured');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (148, 139, 'featured');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (149, 140, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (150, 141, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (150, 142, 'featured');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (151, 143, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (152, 144, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (153, 102, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (153, 145, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (154, 146, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (155, 147, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (156, 148, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (157, 149, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (157, 150, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (157, 151, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (158, 152, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (159, 153, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (160, 154, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (161, 155, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (161, 156, 'featured');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (162, 155, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (162, 157, 'featured');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (163, 158, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (164, 17, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (164, 126, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (164, 159, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (165, 160, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (166, 161, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (166, 162, 'featured');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (167, 163, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (168, 163, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (169, 164, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (169, 165, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (170, 165, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (170, 166, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (171, 165, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (172, 167, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (172, 168, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (173, 168, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (173, 169, 'primary');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role) VALUES (174, 170, 'primary');
+
+-- [2026-04-05] Opr — Gesaffelstein
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Opr', 'France', NULL, 'Dark techno', 233, NULL, 'Fx');
+INSERT INTO artists (name, alias) VALUES ('Gesaffelstein', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Opr'
+)
+AND a.name = 'Gesaffelstein';
+
+-- [2026-04-05] I Felt Love — Blue Hawaii
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('I Felt Love', 'Canada', NULL, 'Synth pop', 192, 'English', 'Fx');
+INSERT INTO artists (name, alias) VALUES ('Blue Hawaii', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'I Felt Love'
+)
+AND a.name = 'Blue Hawaii';
+
+-- [2026-04-05] Como La Flor — Selena
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Como La Flor', 'USA', NULL, 'Tejano cumbia', 184, 'Spanish', 'Latin');
+INSERT INTO artists (name, alias) VALUES ('Selena', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Como La Flor'
+)
+AND a.name = 'Selena';
