@@ -1268,3 +1268,14 @@ WHERE s.rowid = (
     SELECT MAX(rowid) FROM songs WHERE title = 'I Feel Love'
 )
 AND a.name = 'Donna Summer';
+
+-- [2026-04-05] Give Me the Night — George Benson
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Give Me the Night', 'USA', NULL, 'R&B', 301, 'English', 'Ox');
+INSERT INTO artists (name, alias) VALUES ('George Benson', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Give Me the Night'
+)
+AND a.name = 'George Benson';
