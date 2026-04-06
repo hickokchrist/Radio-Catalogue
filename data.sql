@@ -895,3 +895,376 @@ WHERE s.rowid = (
     SELECT MAX(rowid) FROM songs WHERE title = 'Residue'
 )
 AND a.name = 'A.G. Cook';
+
+-- [2026-04-05] Si un jour — La Femme
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Si un jour', 'France', NULL, 'Synth pop', 158, 'French', 'Fr');
+INSERT INTO artists (name, alias) VALUES ('La Femme', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Si un jour'
+)
+AND a.name = 'La Femme';
+
+-- [2026-04-05] Antes Muerta Que Sencilla — Los Horóscopos De Durango
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Antes Muerta Que Sencilla', 'USA', NULL, 'Duranguense', 170, 'Spanish', 'Latin');
+INSERT INTO artists (name, alias) VALUES ('Los Horóscopos De Durango', 'Los Horóscopos De Durango');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Antes Muerta Que Sencilla'
+)
+AND a.name = 'Los Horóscopos De Durango';
+
+-- [2026-04-05] I can't Wait — Nu Shooz
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('I can''t Wait', 'USA', NULL, 'Dance pop', 326, 'English', '80s');
+INSERT INTO artists (name, alias) VALUES ('Nu Shooz', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'I can''t Wait'
+)
+AND a.name = 'Nu Shooz';
+
+-- [2026-04-05] Mother's Talk — Tears For Fears
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Mother''s Talk', 'UK', NULL, 'New wave', 306, 'English', '80s');
+INSERT INTO artists (name, alias) VALUES ('Tears For Fears', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Mother''s Talk'
+)
+AND a.name = 'Tears For Fears';
+
+-- [2026-04-05] You Spin Me Round (Like a Record) — Dead Or Alive
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('You Spin Me Round (Like a Record)', 'UK', NULL, 'Synth pop', 195, 'English', '80s');
+INSERT INTO artists (name, alias) VALUES ('Dead Or Alive', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'You Spin Me Round (Like a Record)'
+)
+AND a.name = 'Dead Or Alive';
+
+-- [2026-04-05] 3 Words — Cheryl Cole, will.i.am
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('3 Words', 'UK', NULL, 'Dance pop', 273, 'English', 'Pop');
+INSERT INTO artists (name, alias) VALUES ('Cheryl Cole', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = '3 Words'
+)
+AND a.name = 'Cheryl Cole';
+INSERT INTO artists (name, alias) VALUES ('will.i.am', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'featured'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = '3 Words'
+)
+AND a.name = 'will.i.am';
+UPDATE songs SET title = '3 Words (feat. will.i.am)' WHERE title = '3 Words';
+
+-- [2026-04-05] Ready for the Weekend — Icona Pop
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Ready for the Weekend', 'UK', NULL, 'Electro house', 162, 'English', 'Pop');
+INSERT INTO artists (name, alias) VALUES ('Icona Pop', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Ready for the Weekend'
+)
+AND a.name = 'Icona Pop';
+
+-- [2026-04-05] Sun Goes Down — Icona Pop, The Knocks, St. Lucia
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Sun Goes Down', 'UK', NULL, 'Dance pop', 195, 'English', 'Pop');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Sun Goes Down'
+)
+AND a.name = 'Icona Pop';
+INSERT INTO artists (name, alias) VALUES ('The Knocks', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'featured'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Sun Goes Down'
+)
+AND a.name = 'The Knocks';
+INSERT INTO artists (name, alias) VALUES ('St. Lucia', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'featured'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Sun Goes Down'
+)
+AND a.name = 'St. Lucia';
+UPDATE songs SET title = 'Sun Goes Down (feat. The Knocks, St. Lucia)' WHERE title = 'Sun Goes Down';
+
+-- [2026-04-05] Haboglabotribin' — Bernard Wright
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Haboglabotribin''', 'USA', NULL, 'Funk', 259, 'English', 'Ox');
+INSERT INTO artists (name, alias) VALUES ('Bernard Wright', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Haboglabotribin'''
+)
+AND a.name = 'Bernard Wright';
+
+-- [2026-04-05] Rip Off — After School
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Rip Off', 'Korea', NULL, 'Kpop', 177, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Rip Off'
+)
+AND a.name = 'After School';
+
+-- [2026-04-05] Happy Days — Brooke Candy
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Happy Days', 'USA', NULL, 'Electro pop', 222, 'English', 'Pop');
+INSERT INTO artists (name, alias) VALUES ('Brooke Candy', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Happy Days'
+)
+AND a.name = 'Brooke Candy';
+
+-- [2026-04-05] Destroy Everything You Touch — Ladytron
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Destroy Everything You Touch', 'UK', NULL, 'Electro pop', 276, 'English', 'Pop');
+INSERT INTO artists (name, alias) VALUES ('Ladytron', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Destroy Everything You Touch'
+)
+AND a.name = 'Ladytron';
+
+-- [2026-04-05] Good Clean Fun — Clearlake
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Good Clean Fun', 'UK', NULL, 'Indie rock', 234, 'English', 'Pop');
+INSERT INTO artists (name, alias) VALUES ('Clearlake', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Good Clean Fun'
+)
+AND a.name = 'Clearlake';
+
+-- [2026-04-05] Sun Is Shining — Bob Marley, The Wailers
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Sun Is Shining', 'Jamaica', NULL, 'Reggae', 298, 'English', 'Reggae');
+INSERT INTO artists (name, alias) VALUES ('Bob Marley', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Sun Is Shining'
+)
+AND a.name = 'Bob Marley';
+INSERT INTO artists (name, alias) VALUES ('The Wailers', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Sun Is Shining'
+)
+AND a.name = 'The Wailers';
+
+-- [2026-04-05] WHISTLE — BLACKPINK
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('WHISTLE', 'Korea', NULL, 'Kpop', 211, 'Korean', 'K');
+INSERT INTO artists (name, alias) VALUES ('BLACKPINK', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'WHISTLE'
+)
+AND a.name = 'BLACKPINK';
+
+-- [2026-04-05] ILYSM — Steve Aoki, Autoerotique
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('ILYSM', 'USA', NULL, 'EDM', 200, 'English', 'Fx');
+INSERT INTO artists (name, alias) VALUES ('Steve Aoki', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'ILYSM'
+)
+AND a.name = 'Steve Aoki';
+INSERT INTO artists (name, alias) VALUES ('Autoerotique', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'ILYSM'
+)
+AND a.name = 'Autoerotique';
+
+-- [2026-04-05] Masterplan — The Hacker, Miss Kittin
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Masterplan', 'France', NULL, 'Dance pop', 390, 'English', 'Fx');
+INSERT INTO artists (name, alias) VALUES ('The Hacker', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Masterplan'
+)
+AND a.name = 'The Hacker';
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'featured'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Masterplan'
+)
+AND a.name = 'Miss Kittin';
+UPDATE songs SET title = 'Masterplan (feat. Miss Kittin)' WHERE title = 'Masterplan';
+
+-- [2026-04-05] Half Bad — White Reaper
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Half Bad', 'USA', NULL, 'Alt rock', 163, 'English', 'Punk');
+INSERT INTO artists (name, alias) VALUES ('White Reaper', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Half Bad'
+)
+AND a.name = 'White Reaper';
+
+-- [2026-04-05] I'd Rather Be with You — Bootsy Collins
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('I''d Rather Be with You', 'USA', NULL, 'Funk', 297, 'English', 'Cx');
+INSERT INTO artists (name, alias) VALUES ('Bootsy Collins', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'I''d Rather Be with You'
+)
+AND a.name = 'Bootsy Collins';
+
+-- [2026-04-05] ALL OF YOU SAY — MINZY
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('ALL OF YOU SAY', 'Korea', NULL, 'Pop', 151, 'English', 'K');
+INSERT INTO artists (name, alias) VALUES ('MINZY', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'ALL OF YOU SAY'
+)
+AND a.name = 'MINZY';
+
+-- [2026-04-05] Keep Up — Hyper Crush
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Keep Up', 'USA', NULL, 'Neon electro', 193, 'English', 'Fx');
+INSERT INTO artists (name, alias) VALUES ('Hyper Crush', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Keep Up'
+)
+AND a.name = 'Hyper Crush';
+
+-- [2026-04-05] Flip the Switch — Hyper Crush
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Flip the Switch', 'USA', NULL, 'Neon electro', 203, 'English', 'Fx');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Flip the Switch'
+)
+AND a.name = 'Hyper Crush';
+
+-- [2026-04-05] Take Me Back — KaW
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Take Me Back', 'USA', NULL, 'Electronic', 123, 'English', 'IIDX+');
+INSERT INTO artists (name, alias) VALUES ('KaW', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Take Me Back'
+)
+AND a.name = 'KaW';
+
+-- [2026-04-05] Disconnected — Inspector K
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Disconnected', 'USA', NULL, 'Electronic', 121, 'English', 'IIDX+');
+INSERT INTO artists (name, alias) VALUES ('Inspector K', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Disconnected'
+)
+AND a.name = 'Inspector K';
+
+-- [2026-04-05] Infection — Inspector K
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Infection', 'USA', NULL, 'Electronic', 138, 'English', 'IIDX+');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Infection'
+)
+AND a.name = 'Inspector K';
+
+-- [2026-04-05] Tension — Inspector K
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Tension', 'USA', NULL, 'Electronic', 120, 'English', 'IIDX+');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Tension'
+)
+AND a.name = 'Inspector K';
+
+-- [2026-04-05] Nóng — BigDaddy, Hạnh Sino
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Nóng', 'Vietnam', 'Nóng', 'V pop', 197, 'Vietnamese', 'Viet');
+INSERT INTO artists (name, alias) VALUES ('BigDaddy', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Nóng'
+)
+AND a.name = 'BigDaddy';
+INSERT INTO artists (name, alias) VALUES ('Hạnh Sino', 'Hạnh Sino');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'featured'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Nóng'
+)
+AND a.name = 'Hạnh Sino';
+UPDATE songs SET title = 'Nóng (feat. Hạnh Sino)' WHERE title = 'Nóng';
+
+-- [2026-04-05] Paralyzed — Agnes Monica
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Paralyzed', 'Indonesia', NULL, 'Pop', 217, 'Indonesian', 'Indo');
+INSERT INTO artists (name, alias) VALUES ('Agnes Monica', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Paralyzed'
+)
+AND a.name = 'Agnes Monica';
+
+-- [2026-04-05] I Feel Love — Donna Summer
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('I Feel Love', 'USA', NULL, 'Disco', 493, 'English', 'Cx');
+INSERT INTO artists (name, alias) VALUES ('Donna Summer', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'I Feel Love'
+)
+AND a.name = 'Donna Summer';
