@@ -2447,3 +2447,106 @@ WHERE s.rowid = (
     SELECT MAX(rowid) FROM songs WHERE title = '赤線'
 )
 AND a.name = 'MUCC';
+
+-- [2026-04-14] New York New York — Nina Hagen
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('New York New York', 'Germany', NULL, 'New wave', 317, 'German', NULL);
+INSERT INTO artists (name, alias) VALUES ('Nina Hagen', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'New York New York'
+)
+AND a.name = 'Nina Hagen';
+
+-- [2026-04-14] Naturträne — Nina Hagen
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Naturträne', 'Germany', 'Naturträne', 'New wave', 198, 'German', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Naturträne'
+)
+AND a.name = 'Nina Hagen';
+
+-- [2026-04-14] Cosma Shiva — Nina Hagen
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Cosma Shiva', 'Germany', NULL, 'New wave', 198, 'German', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Cosma Shiva'
+)
+AND a.name = 'Nina Hagen';
+
+-- [2026-04-14] Born in Xixax — Nina Hagen
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Born in Xixax', 'Germany', NULL, 'New wave', 174, 'English', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Born in Xixax'
+)
+AND a.name = 'Nina Hagen';
+
+-- [2026-04-14] Future Is Now — Nina Hagen
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Future Is Now', 'Germany', NULL, 'New wave', 175, 'German', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Future Is Now'
+)
+AND a.name = 'Nina Hagen';
+
+-- [2026-04-14] Wir leben immer ... noch (Lucky Number) — Nina Hagen
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Wir leben immer ... noch (Lucky Number)', 'Germany', NULL, 'New wave', 294, 'German', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Wir leben immer ... noch (Lucky Number)'
+)
+AND a.name = 'Nina Hagen';
+
+-- [2026-04-14] TV-Glotzer (White Punks On Dope) — Nina Hagen
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('TV-Glotzer (White Punks On Dope)', 'Germany', NULL, 'New wave', 313, 'German', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'TV-Glotzer (White Punks On Dope)'
+)
+AND a.name = 'Nina Hagen';
+
+-- [2026-04-14] Heiss — Nina Hagen
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Heiss', 'Germany', NULL, 'New wave', 251, 'German', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Heiss'
+)
+AND a.name = 'Nina Hagen';
+
+-- [2026-04-14] Unbeschreiblich Weiblich — Nina Hagen
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Unbeschreiblich Weiblich', 'Germany', NULL, 'New wave', 210, 'German', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Unbeschreiblich Weiblich'
+)
+AND a.name = 'Nina Hagen';
+
+-- [2026-04-14] Smack Jack — Nina Hagen
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Smack Jack', 'Germany', NULL, 'New wave', 316, 'English', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Smack Jack'
+)
+AND a.name = 'Nina Hagen';
+
+-- [2026-04-14] Born in Xixax — Nina Hagen
