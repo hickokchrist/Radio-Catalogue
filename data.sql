@@ -2789,3 +2789,466 @@ WHERE s.rowid = (
 )
 AND a.name = 'SHINee';
 UPDATE songs SET title = 'Lollipop (feat. SHINee)' WHERE title = 'Lollipop';
+
+-- [2026-04-15] Erode — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Erode', 'Japan', NULL, 'Jrock', 390, 'Japanese', 'J');
+INSERT INTO artists (name, alias) VALUES ('Dir en grey', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Erode'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] Schwein No Isu — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Schwein No Isu', 'Japan', NULL, 'Jrock', 217, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Schwein No Isu'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] YURAMEKI — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('YURAMEKI', 'Japan', NULL, 'Jrock', 305, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'YURAMEKI'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] raison detre — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('raison detre', 'Japan', NULL, 'Jrock', 288, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'raison detre'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] 304 Goushitsu, Hakushi No Sakura — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('304 Goushitsu, Hakushi No Sakura', 'Japan', NULL, 'Jrock', 318, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = '304 Goushitsu, Hakushi No Sakura'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] YOKAN — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('YOKAN', 'Japan', NULL, 'Jrock', 279, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'YOKAN'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] MASK — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('MASK', 'Japan', NULL, 'Jrock', 265, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'MASK'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] ZAN — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('ZAN', 'Japan', NULL, 'Jrock', 303, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'ZAN'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] Deity — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Deity', 'Japan', NULL, 'Jrock', 255, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Deity'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] MYAKU — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('MYAKU', 'Japan', NULL, 'Jrock', 245, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'MYAKU'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] WAKE — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('WAKE', 'Japan', NULL, 'Jrock', 312, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'WAKE'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] Hydra — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Hydra', 'Japan', NULL, 'Jrock', 341, 'Japanese', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Hydra'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] audrey — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('audrey', 'Japan', NULL, 'Jrock', 273, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'audrey'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] 鬼眼-kigan- — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('鬼眼-kigan-', 'Japan', 'oni me -kigan-', 'Jrock', 245, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = '鬼眼-kigan-'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] FILTH — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('FILTH', 'Japan', NULL, 'Jrock', 295, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'FILTH'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] embryo — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('embryo', 'Japan', NULL, 'Jrock', 340, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'embryo'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] FILTH IN THE BEAUTY — the GazettE
+
+-- [2026-04-15] Gyakujou Tannou Keloid Milk — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Gyakujou Tannou Keloid Milk', 'Japan', NULL, 'Jrock', 283, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Gyakujou Tannou Keloid Milk'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] undecided — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('undecided', 'Japan', NULL, 'Jrock', 293, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'undecided'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] JESSICA — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('JESSICA', 'Japan', NULL, 'Jrock', 253, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'JESSICA'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] 鴉-karasu- — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('鴉-karasu-', 'Japan', 'karasu -karasu-', 'Jrock', 326, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = '鴉-karasu-'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] audience KILLER LOOP — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('audience KILLER LOOP', 'Japan', NULL, 'Jrock', 219, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'audience KILLER LOOP'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] THE IIID EMPIRE — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('THE IIID EMPIRE', 'Japan', NULL, 'Jrock', 185, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'THE IIID EMPIRE'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] G.D.S. — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('G.D.S.', 'Japan', NULL, 'Jrock', 466, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'G.D.S.'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] RED... [em] — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('RED... [em]', 'Japan', NULL, 'Jrock', 301, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'RED... [em]'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] Merciless Cult — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Merciless Cult', 'Japan', NULL, 'Jrock', 175, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Merciless Cult'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] MARLAMADE CHAINSAW — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('MARLAMADE CHAINSAW', 'Japan', NULL, 'Jrock', 253, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'MARLAMADE CHAINSAW'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] CHILD PREY — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('CHILD PREY', 'Japan', NULL, 'Jrock', 232, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'CHILD PREY'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] AMBER — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('AMBER', 'Japan', NULL, 'Jrock', 288, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'AMBER'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] 朔-saku- — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('朔-saku-', 'Japan', 'saku -saku-', 'Jrock', 177, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = '朔-saku-'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] KODOKU NI SHISU, YUENI KODOKU — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('KODOKU NI SHISU, YUENI KODOKU', 'Japan', NULL, 'Jrock', 205, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'KODOKU NI SHISU, YUENI KODOKU'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] ITOSHISA HA FUHAI NITSUKI — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('ITOSHISA HA FUHAI NITSUKI', 'Japan', NULL, 'Jrock', 255, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'ITOSHISA HA FUHAI NITSUKI'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] GARBAGE — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('GARBAGE', 'Japan', NULL, 'Jrock', 169, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'GARBAGE'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] The Final — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('The Final', 'Japan', NULL, 'Jrock', 252, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'The Final'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] SPILLED MILK — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('SPILLED MILK', 'Japan', NULL, 'Jrock', 224, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'SPILLED MILK'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] HIGEKI HA MABUTA WO OROSHITA YASASHIKI UTSU — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('HIGEKI HA MABUTA WO OROSHITA YASASHIKI UTSU', 'Japan', NULL, 'Jrock', 308, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'HIGEKI HA MABUTA WO OROSHITA YASASHIKI UTSU'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] CONCEIVED SORROW — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('CONCEIVED SORROW', 'Japan', NULL, 'Jrock', 289, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'CONCEIVED SORROW'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] RYOJOKU NO AME — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('RYOJOKU NO AME', 'Japan', NULL, 'Jrock', 242, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'RYOJOKU NO AME'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] SA BIR — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('SA BIR', 'Japan', NULL, 'Jrock', 120, NULL, 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'SA BIR'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] DOZING GREEN — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('DOZING GREEN', 'Japan', NULL, 'Jrock', 246, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'DOZING GREEN'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] umbrella — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('umbrella', 'Japan', NULL, 'Jrock', 246, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'umbrella'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] children — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('children', 'Japan', NULL, 'Jrock', 241, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'children'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] BYOU 「」SHIN — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('BYOU 「」SHIN', 'Japan', 'BYOU 「」SHIN', 'Jrock', 337, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'BYOU 「」SHIN'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] GLASS SKIN — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('GLASS SKIN', 'Japan', NULL, 'Jrock', 270, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'GLASS SKIN'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] ISOLATION — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('ISOLATION', 'Japan', NULL, 'Jrock', 122, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'ISOLATION'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] Discard — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Discard', 'Japan', NULL, 'Jrock', 295, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Discard'
+)
+AND a.name = 'Dir en grey';
+
+-- [2026-04-15] Void — Dir en grey
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Void', 'Japan', NULL, 'Jrock', 362, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Void'
+)
+AND a.name = 'Dir en grey';
