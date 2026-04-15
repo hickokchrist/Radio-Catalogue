@@ -2550,3 +2550,242 @@ WHERE s.rowid = (
 AND a.name = 'Nina Hagen';
 
 -- [2026-04-14] Born in Xixax — Nina Hagen
+
+-- [2026-04-15] Beautiful Stranger — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Beautiful Stranger', 'Korea', NULL, 'Kpop', 248, 'Korean', 'K');
+INSERT INTO artists (name, alias) VALUES ('f(x)', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Beautiful Stranger'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] My Style — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('My Style', 'Korea', NULL, 'Kpop', 222, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'My Style'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Step — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Step', 'Korea', NULL, 'Kpop', 215, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Step'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Deja Vu — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Deja Vu', 'Korea', NULL, 'Kpop', 220, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Deja Vu'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Traveler — f(x), ZICO
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Traveler', 'Korea', NULL, 'Kpop', 218, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Traveler'
+)
+AND a.name = 'f(x)';
+INSERT INTO artists (name, alias) VALUES ('ZICO', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'featured'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Traveler'
+)
+AND a.name = 'ZICO';
+UPDATE songs SET title = 'Traveler (feat. ZICO)' WHERE title = 'Traveler';
+
+-- [2026-04-15] Papi — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Papi', 'Korea', NULL, 'Kpop', 185, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Papi'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] When I'm Alone — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('When I''m Alone', 'Korea', NULL, 'Kpop', 203, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'When I''m Alone'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Zig Zag — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Zig Zag', 'Korea', NULL, 'Kpop', 228, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Zig Zag'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Chu~♡ — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Chu~♡', 'Korea', 'Chu~♡', 'Kpop', 190, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Chu~♡'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] 4 Walls — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('4 Walls', 'Korea', NULL, 'Kpop', 207, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = '4 Walls'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Mr. Boogie — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Mr. Boogie', 'Korea', NULL, 'Kpop', 180, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Mr. Boogie'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Ice Cream — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Ice Cream', 'Korea', NULL, 'Kpop', 186, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Ice Cream'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Dracula — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Dracula', 'Korea', NULL, 'Kpop', 194, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Dracula'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] All Night — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('All Night', 'Korea', NULL, 'Kpop', 210, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'All Night'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Dangerous — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Dangerous', 'Korea', NULL, 'Kpop', 195, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Dangerous'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Sweet Witches — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Sweet Witches', 'Korea', NULL, 'Kpop', 209, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Sweet Witches'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] MILK — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('MILK', 'Korea', NULL, 'Kpop', 215, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'MILK'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Signal — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Signal', 'Korea', NULL, 'Kpop', 200, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Signal'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Airplane — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Airplane', 'Korea', NULL, 'Kpop', 214, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Airplane'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Rude Love — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Rude Love', 'Korea', NULL, 'Kpop', 258, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Rude Love'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Love — f(x)
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Love', 'Korea', NULL, 'Kpop', 195, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Love'
+)
+AND a.name = 'f(x)';
+
+-- [2026-04-15] Lollipop — f(x), SHINee
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Lollipop', 'Korea', NULL, 'Kpop', 190, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Lollipop'
+)
+AND a.name = 'f(x)';
+INSERT INTO artists (name, alias) VALUES ('SHINee', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'featured'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Lollipop'
+)
+AND a.name = 'SHINee';
+UPDATE songs SET title = 'Lollipop (feat. SHINee)' WHERE title = 'Lollipop';
