@@ -3878,3 +3878,566 @@ WHERE s.rowid = (
     SELECT MAX(rowid) FROM songs WHERE title = 'Guessing Games'
 )
 AND a.name = 'Dev Lemons';
+
+-- [2026-04-15] Sirocco — Loco Mía
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Sirocco', 'Spain', NULL, 'Pop', 277, 'Spanish', 'Latin');
+INSERT INTO artists (name, alias) VALUES ('Loco Mía', 'Loco Mía');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Sirocco'
+)
+AND a.name = 'Loco Mía';
+
+-- [2026-04-15] Locomia — Loco Mía
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Locomia', 'Spain', NULL, 'Pop', 345, 'Spanish', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Locomia'
+)
+AND a.name = 'Loco Mía';
+
+-- [2026-04-15] R S M (Rumba Samba Mambo) — Loco Mía
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('R S M (Rumba Samba Mambo)', 'Spain', NULL, 'Pop', 367, 'Spanish', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'R S M (Rumba Samba Mambo)'
+)
+AND a.name = 'Loco Mía';
+
+-- [2026-04-15] Loco Vox — Loco Mía
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Loco Vox', 'Spain', NULL, 'Pop', 228, 'Spanish', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Loco Vox'
+)
+AND a.name = 'Loco Mía';
+
+-- [2026-04-15] Sueño de Papel — Loco Mía
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Sueño de Papel', 'Spain', 'Sueño de Papel', 'Pop', 202, 'Spanish', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Sueño de Papel'
+)
+AND a.name = 'Loco Mía';
+
+-- [2026-04-15] Te Lo Voy A Dar 'Pumba Pumba-Cha Cha Cha' — Loco Mía
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Te Lo Voy A Dar ''Pumba Pumba-Cha Cha Cha''', 'Spain', NULL, 'Pop', 299, 'Spanish', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Te Lo Voy A Dar ''Pumba Pumba-Cha Cha Cha'''
+)
+AND a.name = 'Loco Mía';
+
+-- [2026-04-15] Move Your Body — Loco Mía
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Move Your Body', 'Spain', NULL, 'Pop', 286, 'Spanish', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Move Your Body'
+)
+AND a.name = 'Loco Mía';
+
+-- [2026-04-15] Obsesiva 'Abgefahrn' — Loco Mía
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Obsesiva ''Abgefahrn''', 'Spain', NULL, 'Pop', 453, 'Spanish', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Obsesiva ''Abgefahrn'''
+)
+AND a.name = 'Loco Mía';
+
+-- [2026-04-15] Party Time — Loco Mía
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Party Time', 'Spain', NULL, 'Pop', 350, 'Spanish', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Party Time'
+)
+AND a.name = 'Loco Mía';
+
+-- [2026-04-15] WHITE SONG — HYDE
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('WHITE SONG', 'Japan', NULL, 'Pop', 315, 'Japanese', 'J');
+INSERT INTO artists (name, alias) VALUES ('HYDE', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'WHITE SONG'
+)
+AND a.name = 'HYDE';
+
+-- [2026-04-15] OASIS — HYDE
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('OASIS', 'Japan', NULL, 'Pop', 276, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'OASIS'
+)
+AND a.name = 'HYDE';
+
+-- [2026-04-15] A DROP OF COLOUR — HYDE
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('A DROP OF COLOUR', 'Japan', NULL, 'Pop', 273, 'Japanese', 'J');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'A DROP OF COLOUR'
+)
+AND a.name = 'HYDE';
+
+-- [2026-04-15] Sugar Free — T-ARA
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Sugar Free', 'Korea', NULL, 'Pop', 235, 'Korean', 'K');
+INSERT INTO artists (name, alias) VALUES ('T-ARA', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Sugar Free'
+)
+AND a.name = 'T-ARA';
+
+-- [2026-04-15] ROLY-POLY — T-ARA
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('ROLY-POLY', 'Korea', NULL, 'Pop', 214, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'ROLY-POLY'
+)
+AND a.name = 'T-ARA';
+
+-- [2026-04-15] SEXY LOVE — T-ARA
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('SEXY LOVE', 'Korea', NULL, 'Pop', 225, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'SEXY LOVE'
+)
+AND a.name = 'T-ARA';
+
+-- [2026-04-15] Lovey-Dovey — T-ARA
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Lovey-Dovey', 'Korea', NULL, 'Pop', 215, 'Korean', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Lovey-Dovey'
+)
+AND a.name = 'T-ARA';
+
+-- [2026-04-15] (It Goes Like) Nanana - Edit — Peggy Gou
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('(It Goes Like) Nanana - Edit', 'Korea', NULL, 'Deep house', 231, 'English', 'K');
+INSERT INTO artists (name, alias) VALUES ('Peggy Gou', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = '(It Goes Like) Nanana - Edit'
+)
+AND a.name = 'Peggy Gou';
+
+-- [2026-04-15] I Go - Edit — Peggy Gou
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('I Go - Edit', 'Korea', NULL, 'Deep house', 224, 'English', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'I Go - Edit'
+)
+AND a.name = 'Peggy Gou';
+
+-- [2026-04-15] 1+1=11 - Edit — Peggy Gou
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('1+1=11 - Edit', 'Korea', NULL, 'Deep house', 190, 'English', 'K');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = '1+1=11 - Edit'
+)
+AND a.name = 'Peggy Gou';
+
+-- [2026-04-15] Sugar Water Cyanide — Rebecca Black
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Sugar Water Cyanide', 'USA', NULL, 'Pop', 174, 'English', 'Pop');
+INSERT INTO artists (name, alias) VALUES ('Rebecca Black', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Sugar Water Cyanide'
+)
+AND a.name = 'Rebecca Black';
+
+-- [2026-04-15] TRUST! — Rebecca Black
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('TRUST!', 'USA', NULL, 'Pop', 171, 'English', 'Pop');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'TRUST!'
+)
+AND a.name = 'Rebecca Black';
+
+-- [2026-04-15] Salvation — Rebecca Black
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Salvation', 'USA', NULL, 'Pop', 200, 'English', 'Pop');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Salvation'
+)
+AND a.name = 'Rebecca Black';
+
+-- [2026-04-15] Crumbs — Rebecca Black
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Crumbs', 'USA', NULL, 'Pop', 193, 'English', 'Pop');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Crumbs'
+)
+AND a.name = 'Rebecca Black';
+
+-- [2026-04-15] Twist The Knife — Rebecca Black
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Twist The Knife', 'USA', NULL, 'Pop', 205, 'English', 'Pop');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Twist The Knife'
+)
+AND a.name = 'Rebecca Black';
+
+-- [2026-04-15] Tears In My Pocket — Rebecca Black
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Tears In My Pocket', 'USA', NULL, 'Pop', 177, 'English', 'Pop');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Tears In My Pocket'
+)
+AND a.name = 'Rebecca Black';
+
+-- [2026-04-15] Do You Even Think About Me? — Rebecca Black
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Do You Even Think About Me?', 'USA', NULL, 'Pop', 196, 'English', 'Pop');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Do You Even Think About Me?'
+)
+AND a.name = 'Rebecca Black';
+
+-- [2026-04-15] Tukoh Taka - Official FIFA Fan Festival™ Anthem — Nicki Minaj, Maluma, Myriam Fares, FIFA Sound
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Tukoh Taka - Official FIFA Fan Festival™ Anthem', 'idk', 'Tukoh Taka - Official FIFA Fan Festival™ Anthem', 'Pop', 178, 'Various', 'talk over Nicki lol');
+INSERT INTO artists (name, alias) VALUES ('Nicki Minaj', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Tukoh Taka - Official FIFA Fan Festival™ Anthem'
+)
+AND a.name = 'Nicki Minaj';
+INSERT INTO artists (name, alias) VALUES ('Maluma', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Tukoh Taka - Official FIFA Fan Festival™ Anthem'
+)
+AND a.name = 'Maluma';
+INSERT INTO artists (name, alias) VALUES ('Myriam Fares', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Tukoh Taka - Official FIFA Fan Festival™ Anthem'
+)
+AND a.name = 'Myriam Fares';
+INSERT INTO artists (name, alias) VALUES ('FIFA Sound', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Tukoh Taka - Official FIFA Fan Festival™ Anthem'
+)
+AND a.name = 'FIFA Sound';
+
+-- [2026-04-15] Loba — Shakira
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Loba', 'Colombia', NULL, 'Pop', 188, 'Spanish', 'Latin');
+INSERT INTO artists (name, alias) VALUES ('Shakira', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Loba'
+)
+AND a.name = 'Shakira';
+
+-- [2026-04-15] Shakira: Bzrp Music Sessions, Vol. 53/66 — Bizarrap, Shakira
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Shakira: Bzrp Music Sessions, Vol. 53/66', 'Colombia', NULL, 'Pop', 214, 'Spanish', 'Latin');
+INSERT INTO artists (name, alias) VALUES ('Bizarrap', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Shakira: Bzrp Music Sessions, Vol. 53/66'
+)
+AND a.name = 'Bizarrap';
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Shakira: Bzrp Music Sessions, Vol. 53/66'
+)
+AND a.name = 'Shakira';
+
+-- [2026-04-15] Choka Choka — Shakira, Anitta
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Choka Choka', 'Brasil', NULL, 'Pop', 131, 'Spanish, Portuguese', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Choka Choka'
+)
+AND a.name = 'Shakira';
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Choka Choka'
+)
+AND a.name = 'Anitta';
+
+-- [2026-04-15] Te Felicito — Shakira, Rauw Alejandro
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Te Felicito', 'Colombia', NULL, 'Pop', 172, 'Spanish', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Te Felicito'
+)
+AND a.name = 'Shakira';
+INSERT INTO artists (name, alias) VALUES ('Rauw Alejandro', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Te Felicito'
+)
+AND a.name = 'Rauw Alejandro';
+
+-- [2026-04-15] TODO ROTO — Nathy Peluso, CA7RIEL, Paco Amoroso
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('TODO ROTO', 'Spain', NULL, 'Pop', 187, 'Spanish', 'Latin');
+INSERT INTO artists (name, alias) VALUES ('Nathy Peluso', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'TODO ROTO'
+)
+AND a.name = 'Nathy Peluso';
+INSERT INTO artists (name, alias) VALUES ('CA7RIEL', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'TODO ROTO'
+)
+AND a.name = 'CA7RIEL';
+INSERT INTO artists (name, alias) VALUES ('Paco Amoroso', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'TODO ROTO'
+)
+AND a.name = 'Paco Amoroso';
+
+-- [2026-04-15] SALVAJE — Nathy Peluso
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('SALVAJE', 'Spain', NULL, 'Pop', 205, 'Spanish', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'SALVAJE'
+)
+AND a.name = 'Nathy Peluso';
+
+-- [2026-04-15] REAL — Nathy Peluso
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('REAL', 'Spain', NULL, 'Pop', 179, 'Spanish', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'REAL'
+)
+AND a.name = 'Nathy Peluso';
+
+-- [2026-04-15] DELITO — Nathy Peluso
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('DELITO', 'Spain', NULL, 'Pop', 203, 'Spanish', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'DELITO'
+)
+AND a.name = 'Nathy Peluso';
+
+-- [2026-04-15] Pulse — KAZAKY
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Pulse', 'Ukraine', NULL, 'Pop', 190, 'English', 'R/U');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Pulse'
+)
+AND a.name = 'KAZAKY';
+
+-- [2026-04-15] Touch Me — KAZAKY
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Touch Me', 'Ukraine', NULL, 'Pop', 200, 'English', 'R/U');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Touch Me'
+)
+AND a.name = 'KAZAKY';
+
+-- [2026-04-15] Crazy Law — KAZAKY
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Crazy Law', 'Ukraine', NULL, 'Pop', 231, 'English', 'R/U');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Crazy Law'
+)
+AND a.name = 'KAZAKY';
+
+-- [2026-04-15] Lowkey — Kari Faux
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Lowkey', 'USA', NULL, 'Pop', 169, 'English', NULL);
+INSERT INTO artists (name, alias) VALUES ('Kari Faux', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Lowkey'
+)
+AND a.name = 'Kari Faux';
+
+-- [2026-04-15] Paradinha — Anitta
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Paradinha', 'Brasil', NULL, 'Pop', 141, 'Portuguese', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Paradinha'
+)
+AND a.name = 'Anitta';
+
+-- [2026-04-15] Bang — Anitta
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Bang', 'Brasil', NULL, 'Pop', 190, 'Portuguese', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Bang'
+)
+AND a.name = 'Anitta';
+
+-- [2026-04-15] Medicina — Anitta
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Medicina', 'Brasil', NULL, 'Pop', 141, 'Portuguese', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Medicina'
+)
+AND a.name = 'Anitta';
+
+-- [2026-04-15] Na batida — Anitta
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Na batida', 'Brasil', NULL, 'Pop', 163, 'Portuguese', 'Latin');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Na batida'
+)
+AND a.name = 'Anitta';
+
+-- [2026-04-15] Kiat Jud Dong — DJ Red Core
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Kiat Jud Dong', 'Philippines', NULL, 'Budots', 257, 'Cebuano', 'BUDOTS');
+INSERT INTO artists (name, alias) VALUES ('DJ Red Core', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Kiat Jud Dong'
+)
+AND a.name = 'DJ Red Core';
+
+-- [2026-04-15] Basuri - Budots — DJ KRZ
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Basuri - Budots', 'Philippines', NULL, 'Budots', 200, NULL, 'BUDOTS');
+INSERT INTO artists (name, alias) VALUES ('DJ KRZ', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Basuri - Budots'
+)
+AND a.name = 'DJ KRZ';
+
+-- [2026-04-15] Di Ko Kaya Mag Inom Hanggang Umaga - Budots — DJ Sandy
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Di Ko Kaya Mag Inom Hanggang Umaga - Budots', 'Philippines', NULL, 'Budots', 257, 'Tagalog', 'Budots');
+INSERT INTO artists (name, alias) VALUES ('DJ Sandy', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Di Ko Kaya Mag Inom Hanggang Umaga - Budots'
+)
+AND a.name = 'DJ Sandy';
+
+-- [2026-04-15] Emergency — DJ Johnrey, Prezioso, Marvin & Andrea Prezioso
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('Emergency', 'Philippines', NULL, 'Budots', 151, 'English', 'Budots');
+INSERT INTO artists (name, alias) VALUES ('DJ Johnrey', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Emergency'
+)
+AND a.name = 'DJ Johnrey';
+INSERT INTO artists (name, alias) VALUES ('Prezioso', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'featured'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Emergency'
+)
+AND a.name = 'Prezioso';
+INSERT INTO artists (name, alias) VALUES ('Marvin & Andrea Prezioso', NULL);
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'featured'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = 'Emergency'
+)
+AND a.name = 'Marvin & Andrea Prezioso';
+UPDATE songs SET title = 'Emergency (feat. Prezioso, Marvin & Andrea Prezioso)' WHERE title = 'Emergency';
