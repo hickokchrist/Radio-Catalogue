@@ -4441,3 +4441,14 @@ WHERE s.rowid = (
 )
 AND a.name = 'Marvin & Andrea Prezioso';
 UPDATE songs SET title = 'Emergency (feat. Prezioso, Marvin & Andrea Prezioso)' WHERE title = 'Emergency';
+
+-- [2026-04-15] 野花香 - DJ咚鼓版 — 豪大大
+INSERT INTO songs (title, country, alias, genre, duration, language, notes) VALUES ('野花香 - DJ咚鼓版', 'China', 'nobana kaori  - DJ  han', 'Jiafei', 153, 'Chinese', 'Jiafei');
+INSERT INTO artists (name, alias) VALUES ('豪大大', 'gou dai dai');
+INSERT OR IGNORE INTO song_artists (song_id, artist_id, role)
+SELECT s.id, a.id, 'primary'
+FROM songs s, artists a
+WHERE s.rowid = (
+    SELECT MAX(rowid) FROM songs WHERE title = '野花香 - DJ咚鼓版'
+)
+AND a.name = '豪大大';
